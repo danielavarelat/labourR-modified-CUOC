@@ -1,19 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# labourR <a href="http://eworx-org.github.io/labourR/" rel="nofollow"><img src='man/figures/logo.png' align="right" height="130"/></a>
+# labourR <a href="http://eworx-org.github.io/labourR/" rel="nofollow"></a>
 
-<!-- badges: start -->
-
-[![Codecov test
-coverage](https://codecov.io/gh/aleKoure/labourR/branch/master/graph/badge.svg)](https://codecov.io/gh/eworx-org/labourR?branch=master)
-[![R-CMD-check](https://github.com/eworx-org/labourR/workflows/R-CMD-check/badge.svg)](https://github.com/eworx-org/labourR/actions)
-[![CRAN
-status](https://www.r-pkg.org/badges/version/labourR)](https://CRAN.R-project.org/package=labourR)
-[![Total
-Downloads](http://cranlogs.r-pkg.org/badges/grand-total/labourR?color=green)](https://cran.r-project.org/package=labourR)
-<!-- badges: end -->
-
+## original 
 The goal of labourR is to map multilingual free-text of occupations,
 such as a job title in a Curriculum Vitae, to hierarchical ontologies
 provided by [ESCO](https://ec.europa.eu/esco/portal), the multilingual
