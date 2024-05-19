@@ -41,9 +41,7 @@ Parte de este preprocesamiento incluye concatenar las columnas que se quieren an
 
 Las tablas TFIDF se pueden construir con el código del repositorio principal (revisar arriba). Estas son la base necesaria para el funcionamiento del algoritmo. 
 
-El valor agregado de esta implementación está en la utilización de dos niveles de clasificación para restringir el universo de posibilidades de ocupaciones. Primero, se trata de identificar si la vacante tiene palabras que sean "domain-specific" 
-
-
+El valor agregado de esta implementación está en la utilización de dos niveles de clasificación para restringir el universo de posibilidades de ocupaciones. Primero, se trata de identificar si la vacante tiene palabras que sean "domain-specific" para los GRANDES GRUPOS y si no encuentra, hace TFIDF para este primer nivel. Una vez determina el primer nivel, solo busca el match usando TFIDF con las ocupaciones dentro de este NIVEL GENERAL. 
 
 
 ARCHIVO UTILIZADO -> Correlativa_CUOC-2022_Vs_CNO-2022.xlsx
