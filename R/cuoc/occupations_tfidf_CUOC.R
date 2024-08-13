@@ -49,3 +49,18 @@ saveRDS(tfidf_tokens_cuoc, "/Users/dvarelat/Documents/PROYECTOS/NLP/labourR/data
 
 tfidf_tokens_cuoc <- readRDS("/Users/dvarelat/Documents/PROYECTOS/NLP/labourR/data-raw/cuoc/tfidf_tokens_cuoc.rds")
 #usethis::use_data(tfidf_tokens, compress = "xz",internal = TRUE, overwrite = TRUE)
+
+
+### -----------------------
+df <- read.csv('/Users/dvarelat/Documents/PROYECTOS/NLP/labourR/R/cuoc/nombre_desc_occ2022.csv')
+
+df[df$CuocCode ]
+
+df$CuocCode <- sprintf("%05d", df$CuocCode)
+dff <- read_excel("/Users/dvarelat/Documents/PROYECTOS/NLP/mine/New/data/CUOC_GOJI.xlsx")
+
+x = df[df$CuocCode %in% dff$CUOC_5d,]
+
+
+
+

@@ -6,7 +6,6 @@ library(ggplot2)
 library(tidyverse)
 source("/Users/dvarelat/Documents/PROYECTOS/NLP/mine/predict_skills.R")
 
-
 file = '/Users/dvarelat/Documents/PROYECTOS/NLP/labourR/R/cuoc/Correlativa_CUOC-2022_Vs_CNO-2022.xlsx'
 #desc <- read_excel(file, sheet = "Descripciones CUOC 2022")
 desc <- read_excel(file, sheet = "Denominaciones CUOC 2022")
