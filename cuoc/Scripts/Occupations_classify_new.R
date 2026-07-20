@@ -11,35 +11,6 @@ suppressPackageStartupMessages({
 })
 
 
-cleansing_corpus_lab <- function (text, escape_chars = TRUE, nonalphanum = TRUE, longwords = TRUE, 
-          whitespace = TRUE, tolower = TRUE) { # Función copiada de labourR
-  if (class(text) != "character") 
-    stop("text must be character vector")
-  if (escape_chars) 
-    text <- gsub("[\r\n\t]", " ", text)
-  if (nonalphanum) 
-    text <- gsub("[^[:alnum:]]", " ", text)
-  if (longwords) 
-    text <- gsub("\\w{35,}", " ", text)
-  if (whitespace) 
-    text <- gsub("\\s+", " ", text)
-  if (tolower) 
-    text <- tolower(text)
-  trimws(text)
-}
-
-#remove_accents("capitán sbcbs holça holà")
-#remove_stopwords_accents("capitán adscnanaicdd. sd", "sd")
-
-prepare_column_custom <- function(corpus, column, stopwords) {
-  corpus[, (column) := cleansing_corpus_lab(as.character(get(column)))]
-  corpus[, (column) := remove_stopwords_accents(get(column), stopwords)]
-  #corpus[, (column) := remove_accents(get(column), stopwords)]
-  return(corpus)
-}
-
-remove_stopwords_accents("capitán", "")
-
 corpus_to_dt <- function(corpus, ID, COL) {
   freeTextTokensList <- strsplit(corpus[[COL]], split = " ")
   names(freeTextTokensList) <- corpus[[ID]]
@@ -64,20 +35,44 @@ classify_occ_tokens <- function(freeTextTokensDT,
   ## es una versión más corta de classify_occupation_2
   vocabulary <- unique(table_tfidf[, list(term)])[order(term)]
   vocaIndexes <- match(freeTextTokensDT$term, vocabulary$term)
-  if(!is.null(string_dist))
-    vocaIndexes[is.na(vocaIndexes)] <- stringdist::amatch(freeTextTokensDT$term[is.na(vocaIndexes)], vocabulary$term, maxDist = max_dist, method = string_dist)
+  if (!is.null(string_dist))
+    vocaIndexes[is.na(vocaIndexes)] <- stringdist::amatch(freeTextTokensDT$term[is.na(vocaIndexes)],
+                                                          vocabulary$term,
+                                                          maxDist = max_dist,
+                                                          method = string_dist)
+
   matches <- data.table(id = freeTextTokensDT$id, term = vocabulary[vocaIndexes]$term)[!is.na(term)]
-  matches[, term := unlist(matches$term)]
-  table_tfidf[, term := unlist(table_tfidf$term)]
-  predictions <- NULL
-  if (dim(matches)[[1]] > 0 ){
-    predictions <- merge(
-      matches,
-      table_tfidf,
-      allow.cartesian = TRUE
-    )[, list(weight_sum = sum(tfIdf)), by = c("id", "class")][order(id, -weight_sum)][, head(.SD, num_leaves), by = "id"]
-    setnames(predictions, "class", outcode)
+  # Si no hay términos que hicieron match, devolver tabla vacía con columnas correctas
+  if (nrow(matches) == 0) {
+    dt <- data.table(
+      id = character(),
+      weight_sum = numeric(),
+      matched_terms = character()
+    )
+    dt[, (outcode) := character()]
+    return(dt)
   }
+  
+  table_tfidf <- copy(table_tfidf) 
+  matches[, term := unlist(term)]
+  table_tfidf[, term := unlist(term)]
+  
+  predictions <- NULL
+  merged <- merge(
+    matches,
+    table_tfidf,
+    by = "term",
+    allow.cartesian = TRUE
+  )
+  predictions <- merged[, .(
+    weight_sum = sum(tfIdf),
+    matched_terms = paste(unique(term), collapse = ", ")
+  ), by = .(id, class)]
+  
+  
+  predictions <- predictions[order(id, -weight_sum)][, head(.SD, num_leaves), by = id]
+  setnames(predictions, "class", outcode)
+  
   return(predictions)
 }
 
@@ -100,25 +95,12 @@ classify_occupation_2 <- function(corpus,
   setnames(corpus_, c(id_col, text_col), c("id", "text"))
   
   freeTextTokensDT <- corpus_to_dt(corpus_, ID="id", COL = "text")
-  
-  # Match free-text with the vocabulary.
-  vocabulary <- unique(table_tfidf[, list(term)])[order(term)]
-  vocaIndexes <- match(freeTextTokensDT$term, vocabulary$term)
-  if(!is.null(string_dist))
-    vocaIndexes[is.na(vocaIndexes)] <- stringdist::amatch(freeTextTokensDT$term[is.na(vocaIndexes)], vocabulary$term, maxDist = max_dist, method = string_dist)
-  matches <- data.table(id = freeTextTokensDT$id, term = vocabulary[vocaIndexes]$term)[!is.na(term)]
-  # Join the free-text matches with the tfidf weighted tokens and keep the top num_leaves using a weighted sum model.
-  matches[, term := unlist(matches$term)]
-  table_tfidf[, term := unlist(table_tfidf$term)]
-  predictions <- NULL
-  if (dim(matches)[[1]] > 0 ){
-    predictions <- merge(
-      matches,
-      table_tfidf,
-      allow.cartesian = TRUE
-    )[, list(weight_sum = sum(tfIdf)), by = c("id", "class")][order(id, -weight_sum)][, head(.SD, num_leaves), by = "id"]
-    setnames(predictions, "class", outcode)
-  }
+  predictions <- classify_occ_tokens(freeTextTokensDT=freeTextTokensDT,
+                                     table_tfidf=table_tfidf, 
+                                     outcode=outcode, 
+                                     num_leaves = num_leaves, 
+                                     max_dist = max_dist, 
+                                     string_dist = string_dist)
   return(predictions)
   
 }
@@ -145,13 +127,13 @@ single_two_steps <- function(corpus_one,
                              max_dist = 0.1, 
                              string_dist = "jw", 
                              print_match=FALSE, 
-                             noisy_words = noisy_words){
+                             noisy_words = c("")){
   
   if (dim(corpus_one)[[1]] ==1){ 
     tokens_one_TKW <- corpus_to_dt(corpus_one, ID= id_col, COL = text_col1) 
     tokens_one_TKWD <- corpus_to_dt(corpus_one, ID= id_col, COL = text_col2)
     tokens_one_TKWD <- tokens_one_TKWD[!tokens_one_TKWD$term %in% noisy_words]
-    
+    tokens_one_TKWD <- tokens_one_TKWD[!tokens_one_TKWD$term %in% stopwords_es]
     
     res <- get_level1_exact(tokens_one_TKW, vocabulary_domain, print_match=print_match)
     match_one <- unique(res$levels)
@@ -164,7 +146,7 @@ single_two_steps <- function(corpus_one,
       domain_spec_term <- unique(res$term)
       if (length(domain_spec_term) > 1) {
         domain_spec_term <- paste(domain_spec_term, collapse = ",")
-      }
+      } #else {"No domain specific term"}
       
     } else {
       domain_spec_term <- ""
@@ -179,25 +161,29 @@ single_two_steps <- function(corpus_one,
                                    outcode="level1")
       #pred1$weight_sum <- NULL
     }
-    if (!is.null(pred1)){
-      tfidf_subset <- table_tfidf_granular[table_tfidf_granular$level1 == pred1$level1[[1]],]
+    if (nrow(pred1) > 0) {
+      tfidf_subset <- table_tfidf_granular[table_tfidf_granular$level1 == pred1$level1[[1]], ]
       pred2 <- classify_occ_tokens(tokens_one_TKWD, 
                                    table_tfidf = tfidf_subset,
                                    num_leaves = num_leaves_final,
                                    max_dist = max_dist,
                                    string_dist = string_dist,
-                                   outcode="CuocCode")
+                                   outcode = "CuocCode")
       pred2$TermLevel1 <- domain_spec_term
       return(pred2)
-    } else {return(NULL)}
-  }
-  else {
-    #print("Not built for more than one input")
-    return(NULL)
-  }
+    } else {
+      return(data.table(
+        id = character(),
+        CuocCode = character(),
+        weight_sum = numeric(),
+        matched_terms = character(),
+        TermLevel1 = character()
+      ))
+      
+    }
 }
-
-single_two_steps_classify <- function(corpus_one, 
+}
+single_two_steps_incomplete <- function(corpus_one, 
                                       table_tfidf_broad,
                                       table_tfidf_granular, 
                                       id_col = "id", 

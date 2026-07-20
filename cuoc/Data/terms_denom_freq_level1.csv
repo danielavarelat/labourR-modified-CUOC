@@ -1,0 +1,6028 @@
+term,count,levels
+almirante,1,0
+armada,1,0
+nacional,2,"0, 1"
+brigadier,2,"0, 1"
+infanteria,1,0
+marina,3,"0, 3, 7"
+ejercito,1,0
+fuerza,4,"0, 2, 3, 5"
+aerea,3,"0, 1, 3"
+cadete,1,0
+fuerzas,1,0
+armadas,1,0
+capitan,5,"0, 3, 5, 6, 8"
+corbeta,1,0
+fragata,1,0
+navio,3,"0, 2, 3"
+comandante,5,"0, 1, 2, 3, 5"
+base,5,"0, 2, 3, 7, 8"
+batallon,1,0
+brigada,1,0
+unidad,4,"0, 1, 2, 3"
+contralmirante,1,0
+coronel,2,"0, 5"
+guardiamarina,1,0
+oficial,7,"0, 1, 2, 3, 4, 5, 7"
+militares,1,0
+colombiana,2,"0, 2"
+subcomandante,2,"0, 5"
+subteniente,2,"0, 5"
+teniente,2,"0, 5"
+vicealmirante,1,0
+jefe,7,"0, 1, 2, 3, 5, 7, 8"
+conjunto,3,"0, 1, 2"
+aerotecnico,2,"0, 3"
+cabo,4,"0, 3, 5, 7"
+tercero,1,0
+contramaestre,3,"0, 7, 8"
+militar,4,"0, 2, 3, 7"
+marinero,3,"0, 7, 8"
+sargento,3,"0, 3, 5"
+comando,1,0
+viceprimero,2,"0, 5"
+suboficial,2,"0, 5"
+tecnico,9,"0, 1, 2, 3, 4, 5, 7, 8, 9"
+cuarto,5,"0, 2, 3, 7, 8"
+subjefe,1,0
+alumno,1,0
+artillero,2,"0, 7"
+bombardero,1,0
+dragoneante,2,"0, 5"
+grumete,2,"0, 7"
+infante,1,0
+profesional,4,"0, 1, 2, 3"
+regular,1,0
+operador,8,"0, 3, 4, 5, 6, 7, 8, 9"
+radio,7,"0, 1, 2, 3, 4, 7, 8"
+soldado,1,0
+bachiller,2,"0, 5"
+campesino,1,0
+recluta,1,0
+alcalde,1,1
+canciller,1,1
+concejal,1,1
+congresista,1,1
+diputado,1,1
+edil,1,1
+gobernador,1,1
+departamento,2,"1, 3"
+legislador,1,1
+miembro,1,1
+gobiernos,1,1
+locales,1,1
+asamblea,1,1
+legislativa,1,1
+consejo,1,1
+legislativo,2,"1, 2"
+parlamento,2,"1, 3"
+ejecutivo,3,"1, 2, 3"
+ministro,2,"1, 2"
+gobierno,3,"1, 2, 3"
+relaciones,3,"1, 2, 4"
+exteriores,1,1
+parlamentario,2,"1, 2"
+presidente,2,"1, 2"
+republica,1,1
+representante,5,"1, 2, 3, 4, 5"
+camara,3,"1, 3, 7"
+senador,1,1
+viceministro,1,1
+vicepresidente,1,1
+administrador,5,"1, 2, 3, 5, 8"
+administracion,3,"1, 2, 3"
+publica,5,"1, 2, 3, 4, 5"
+agregado,2,"1, 2"
+prensa,7,"1, 2, 3, 4, 7, 8, 9"
+diplomatico,2,"1, 3"
+alguacil,2,"1, 3"
+policia,3,"1, 3, 5"
+alto,4,"1, 2, 3, 8"
+comisionado,1,1
+bomberos,2,"1, 5"
+funcion,3,"1, 3, 7"
+consejero,4,"1, 2, 3, 4"
+consul,1,1
+contador,2,"1, 2"
+nacion,1,1
+contralor,2,"1, 2"
+director,3,"1, 2, 3"
+aduana,3,"1, 3, 4"
+servicios,9,"1, 2, 3, 4, 5, 6, 7, 8, 9"
+gubernamentales,1,1
+asuntos,3,"1, 2, 4"
+intergubernamentales,2,"1, 2"
+administrativo,4,"1, 2, 3, 4"
+impuestos,4,"1, 2, 3, 4"
+nacionales,2,"1, 3"
+programas,4,"1, 2, 3, 9"
+desarrollo,4,"1, 2, 3, 8"
+economico,2,"1, 2"
+politica,2,"1, 2"
+educativa,2,"1, 2"
+ministerio,1,1
+regional,2,"1, 2"
+cancilleria,1,1
+gubernamental,3,"1, 2, 3"
+aduanas,3,"1, 3, 4"
+organizacion,3,"1, 2, 3"
+intergubernamental,1,1
+politicas,2,"1, 2"
+administrativa,2,"1, 3"
+especial,3,"1, 2, 5"
+embajador,1,1
+fiscal,3,"1, 2, 3"
+gerente,2,"1, 2"
+inspector,6,"1, 2, 3, 4, 5, 7"
+personal,5,"1, 2, 3, 4, 5"
+directivo,1,1
+personero,1,1
+procurador,2,"1, 2"
+registrador,4,"1, 2, 4, 9"
+civil,6,"1, 2, 3, 5, 7, 9"
+secretario,4,"1, 2, 3, 4"
+subsecretario,1,1
+superintendente,2,"1, 3"
+tesorero,2,"1, 2"
+vicecontralor,1,1
+comunidad,2,"1, 2"
+indigena,1,1
+etnia,1,1
+pueblo,2,"1, 3"
+tradicional,5,"1, 2, 3, 5, 7"
+pequena,4,"1, 2, 7, 8"
+poblacion,2,"1, 2"
+defensor,1,1
+asociacion,1,1
+profesionales,2,"1, 3"
+deportiva,2,"1, 2"
+establecimiento,2,"1, 5"
+adaptacion,2,"1, 2"
+social,4,"1, 2, 3, 5"
+electoral,2,"1, 3"
+partido,1,1
+politico,2,"1, 2"
+membrecia,1,1
+voluntariado,1,1
+empleadores,1,1
+humanitaria,1,1
+membresia,1,1
+dirigente,1,1
+sindical,1,1
+lider,4,"1, 2, 3, 5"
+club,3,"1, 2, 5"
+deportivo,4,"1, 2, 3, 5"
+cientifica,1,1
+comite,2,"1, 3"
+derechos,3,"1, 2, 3"
+humanos,4,"1, 2, 3, 4"
+gremial,1,1
+sindicato,1,1
+proteccion,5,"1, 2, 3, 5, 7"
+ambiente,5,"1, 2, 3, 4, 5"
+acueducto,4,"1, 3, 7, 9"
+aeropuerto,6,"1, 3, 4, 5, 8, 9"
+oficina,7,"1, 3, 4, 5, 7, 8, 9"
+estacion,5,"1, 3, 5, 7, 8"
+delegado,3,"1, 2, 3"
+empresas,5,"1, 2, 3, 4, 9"
+comercios,1,1
+medios,4,"1, 2, 3, 8"
+comunicacion,4,"1, 2, 3, 7"
+entidades,3,"1, 2, 3"
+financieras,3,"1, 2, 3"
+telecomunicaciones,4,"1, 2, 3, 7"
+comercio,7,"1, 2, 3, 4, 5, 7, 9"
+clinica,4,"1, 2, 3, 5"
+empresa,4,"1, 2, 4, 9"
+entidad,2,"1, 4"
+financiera,3,"1, 2, 3"
+promotora,2,"1, 4"
+salud,5,"1, 2, 3, 4, 5"
+hospital,4,"1, 3, 5, 9"
+institucion,3,"1, 2, 5"
+servicio,8,"1, 2, 3, 4, 5, 7, 8, 9"
+manufactureras,1,1
+construccion,6,"1, 2, 3, 7, 8, 9"
+transporte,9,"1, 2, 3, 4, 5, 6, 7, 8, 9"
+industria,8,"1, 2, 3, 4, 5, 7, 8, 9"
+manufacturera,2,"1, 3"
+correccional,3,"1, 2, 5"
+penitenciaria,1,1
+ventas,6,"1, 2, 3, 4, 5, 7"
+cadena,3,"1, 3, 6"
+almacenes,3,"1, 5, 9"
+compania,2,"1, 5"
+minera,2,"1, 3"
+hotelera,2,"1, 4"
+radial,2,"1, 7"
+restaurantes,3,"1, 3, 9"
+constructora,1,1
+seguros,4,"1, 2, 3, 4"
+informatica,3,"1, 2, 3"
+viajes,3,"1, 3, 4"
+turismo,6,"1, 3, 4, 5, 8, 9"
+fiduciaria,1,1
+agroindustrial,3,"1, 2, 3"
+metalmecanica,3,"1, 2, 3"
+informaticos,4,"1, 2, 3, 7"
+telefonos,5,"1, 2, 3, 7, 8"
+hospitalaria,2,"1, 4"
+financieros,4,"1, 2, 3, 4"
+tienda,4,"1, 3, 5, 9"
+departamentos,2,"1, 5"
+editorial,3,"1, 2, 4"
+distribucion,5,"1, 2, 3, 4, 7"
+energia,5,"1, 2, 3, 7, 8"
+publico,4,"1, 2, 4, 5"
+pesquera,2,"1, 6"
+hotel,4,"1, 4, 5, 9"
+produccion,8,"1, 2, 3, 4, 6, 7, 8, 9"
+bienes,3,"1, 2, 3"
+publicos,5,"1, 2, 3, 5, 9"
+banco,5,"1, 3, 4, 7, 8"
+television,5,"1, 2, 3, 7, 8"
+rector,2,"1, 2"
+universidad,2,"1, 2"
+banca,4,"1, 2, 3, 4"
+corporativa,1,1
+hoteles,2,"1, 5"
+petrolera,7,"1, 3, 4, 5, 7, 8, 9"
+operaciones,5,"1, 2, 3, 4, 9"
+recursos,4,"1, 2, 3, 4"
+educacion,4,"1, 2, 3, 5"
+organizaciones,1,1
+financiero,4,"1, 2, 3, 4"
+vicerrector,1,1
+academico,2,"1, 2"
+contabilidad,4,"1, 2, 3, 4"
+finanzas,4,"1, 2, 3, 4"
+fondos,3,"1, 2, 3"
+pagos,2,"1, 3"
+planeacion,3,"1, 2, 3"
+presupuesto,3,"1, 3, 4"
+auditoria,4,"1, 2, 3, 4"
+control,6,"1, 2, 3, 4, 7, 8"
+firma,1,1
+contadores,3,"1, 3, 9"
+estadisticos,1,1
+investigacion,3,"1, 2, 3"
+mercados,2,"1, 2"
+nomina,3,"1, 3, 4"
+interno,5,"1, 2, 3, 5, 9"
+costos,4,"1, 2, 3, 4"
+cartera,4,"1, 3, 4, 9"
+tesoreria,4,"1, 2, 3, 4"
+subgerente,1,1
+municipal,2,"1, 2"
+pagador,1,1
+juridico,3,"1, 2, 3"
+raices,3,"1, 2, 3"
+corretaje,2,"1, 4"
+intermediacion,1,1
+propiedad,3,"1, 2, 3"
+raiz,2,"1, 3"
+actuarial,4,"1, 2, 3, 4"
+vida,3,"1, 3, 5"
+portafolio,1,1
+inversiones,3,"1, 2, 4"
+credito,3,"1, 3, 4"
+tarjeta,1,1
+bancarias,1,1
+comercial,6,"1, 2, 3, 4, 5, 7"
+empresarial,3,"1, 2, 3"
+corporacion,1,1
+hipotecario,1,1
+inversion,3,"1, 2, 3"
+bancaria,1,1
+cliente,5,"1, 2, 3, 4, 5"
+seccion,2,"1, 2"
+mercadeo,4,"1, 2, 3, 5"
+contratacion,3,"1, 3, 4"
+gestion,4,"1, 2, 3, 4"
+humana,5,"1, 2, 3, 4, 9"
+seguridad,6,"1, 2, 3, 4, 5, 7"
+industrial,8,"1, 2, 3, 4, 5, 7, 8, 9"
+seleccion,5,"1, 2, 3, 4, 9"
+industriales,7,"1, 2, 3, 5, 7, 8, 9"
+laborales,4,"1, 2, 3, 4"
+talento,4,"1, 2, 3, 4"
+humano,4,"1, 2, 3, 4"
+hseq,4,"1, 2, 3, 4"
+calidad,5,"1, 2, 3, 4, 7"
+bienestar,4,"1, 2, 3, 4"
+admisiones,3,"1, 3, 4"
+registro,3,"1, 3, 4"
+capacitacion,3,"1, 2, 3"
+compensacion,1,1
+beneficios,2,"1, 3"
+ocupacional,4,"1, 2, 3, 4"
+organizacional,2,"1, 2"
+evaluacion,3,"1, 2, 3"
+prevencion,4,"1, 2, 3, 4"
+riesgos,3,"1, 2, 3"
+innovacion,3,"1, 2, 3"
+transformacion,4,"1, 2, 3, 9"
+coordinador,5,"1, 2, 3, 4, 5"
+analisis,3,"1, 2, 3"
+economica,2,"1, 2"
+estrategica,2,"1, 2"
+limpieza,5,"1, 5, 7, 8, 9"
+mantenimiento,8,"1, 2, 3, 4, 5, 6, 7, 9"
+infraestructura,3,"1, 2, 3"
+locativo,1,1
+apoyo,6,"1, 2, 3, 4, 8, 9"
+aeronautico,5,"1, 2, 3, 5, 7"
+aseguramiento,3,"1, 2, 3"
+ambiental,4,"1, 2, 3, 5"
+administrativos,2,"1, 3"
+corporativos,1,1
+subdirector,1,1
+operacional,1,1
+aeronautica,3,"1, 2, 3"
+comercializacion,2,"1, 2"
+marketing,3,"1, 2, 3"
+telemercadeo,2,"1, 5"
+publicidad,4,"1, 2, 3, 5"
+promocion,3,"1, 2, 3"
+menor,5,"1, 2, 4, 5, 9"
+aerolinea,5,"1, 3, 4, 5, 9"
+portuarios,2,"1, 8"
+maritimos,1,1
+exterior,4,"1, 3, 4, 5"
+importaciones,3,"1, 3, 4"
+exportaciones,3,"1, 3, 4"
+internacional,3,"1, 2, 5"
+negocios,3,"1, 2, 3"
+internacionales,2,"1, 2"
+aduaneras,1,1
+comunicaciones,4,"1, 2, 3, 7"
+publicitarios,4,"1, 2, 3, 7"
+publicas,5,"1, 2, 3, 4, 9"
+publicaciones,2,"1, 2"
+informacion,5,"1, 2, 3, 4, 7"
+marca,2,"1, 2"
+producto,4,"1, 2, 4, 7"
+vocero,1,1
+cientifico,3,"1, 2, 3"
+consultoria,1,1
+ingenieria,4,"1, 2, 3, 9"
+productos,6,"1, 2, 3, 7, 8, 9"
+diseno,4,"1, 2, 3, 7"
+fabricacion,6,"1, 2, 3, 7, 8, 9"
+sanidad,3,"1, 2, 3"
+vegetal,5,"1, 2, 3, 6, 7"
+mineria,6,"1, 2, 3, 7, 8, 9"
+industrias,1,1
+cosmeticas,1,1
+farmaceuticas,1,1
+proyectos,3,"1, 2, 3"
+ensayos,2,"1, 3"
+electrica,5,"1, 2, 3, 7, 8"
+ciencias,3,"1, 2, 3"
+naturales,5,"1, 2, 3, 5, 7"
+aplicadas,2,"1, 2"
+programa,3,"1, 2, 3"
+farmaceutico,4,"1, 2, 3, 5"
+laboratorio,6,"1, 2, 3, 5, 7, 8"
+alimentos,7,"1, 2, 3, 5, 7, 8, 9"
+quimico,6,"1, 2, 3, 7, 8, 9"
+agropecuario,5,"1, 2, 3, 6, 9"
+finca,4,"1, 3, 6, 9"
+agropecuaria,5,"1, 2, 3, 6, 9"
+granja,5,"1, 2, 3, 6, 9"
+hacienda,3,"1, 3, 6"
+hato,3,"1, 3, 6"
+ganadero,3,"1, 3, 6"
+vivero,5,"1, 3, 6, 7, 9"
+aprovechamiento,4,"1, 2, 3, 6"
+agricola,7,"1, 2, 3, 6, 7, 8, 9"
+pecuario,5,"1, 2, 3, 6, 9"
+plantacion,4,"1, 3, 6, 9"
+explotacion,6,"1, 2, 3, 6, 8, 9"
+pecuaria,3,"1, 3, 6"
+integral,4,"1, 3, 5, 7"
+planta,7,"1, 2, 3, 6, 7, 8, 9"
+agricultor,2,"1, 6"
+empresario,2,"1, 2"
+agronomico,2,"1, 3"
+cosecha,5,"1, 2, 3, 6, 9"
+forestal,7,"1, 2, 3, 5, 6, 8, 9"
+avicola,3,"1, 3, 6"
+mipe,3,"1, 3, 6"
+manejo,5,"1, 2, 3, 5, 6"
+integrado,3,"1, 3, 6"
+plagas,4,"1, 3, 6, 7"
+enfermedades,3,"1, 3, 6"
+postcosecha,4,"1, 2, 3, 9"
+silvicola,1,1
+silvicultura,5,"1, 2, 3, 6, 9"
+beneficio,5,"1, 2, 3, 7, 8"
+animal,7,"1, 2, 3, 5, 7, 8, 9"
+incubacion,3,"1, 3, 6"
+material,6,"1, 2, 3, 7, 8, 9"
+criadero,2,"1, 9"
+peces,5,"1, 3, 6, 7, 9"
+pesca,7,"1, 2, 3, 5, 6, 7, 9"
+acuicola,4,"1, 3, 6, 9"
+piscicola,3,"1, 3, 9"
+arrastrero,1,1
+acuicolas,2,"1, 3"
+pesqueras,2,"1, 8"
+acuicultura,3,"1, 3, 9"
+cultivo,5,"1, 2, 3, 6, 9"
+pesquero,4,"1, 2, 3, 6"
+manufactura,5,"1, 2, 3, 7, 9"
+procesamiento,7,"1, 2, 3, 4, 7, 8, 9"
+bebidas,7,"1, 2, 3, 5, 7, 8, 9"
+procesos,4,"1, 2, 3, 8"
+area,3,"1, 2, 3"
+modas,5,"1, 2, 3, 5, 7"
+operacion,3,"1, 2, 3"
+generacion,5,"1, 2, 3, 7, 8"
+transmision,4,"1, 2, 3, 7"
+central,5,"1, 2, 3, 4, 7"
+fabrica,4,"1, 3, 5, 9"
+tratamiento,7,"1, 2, 3, 5, 7, 8, 9"
+aguas,5,"1, 2, 3, 6, 9"
+residuales,3,"1, 2, 3"
+basuras,2,"1, 8"
+desechos,4,"1, 2, 3, 9"
+quimicos,5,"1, 2, 3, 8, 9"
+refineria,3,"1, 2, 3"
+petroleo,7,"1, 2, 3, 4, 7, 8, 9"
+suministro,3,"1, 3, 7"
+hidroelectrica,2,"1, 3"
+grafica,3,"1, 2, 3"
+calzado,6,"1, 2, 3, 7, 8, 9"
+confecciones,3,"1, 2, 9"
+marroquineria,5,"1, 2, 3, 7, 8"
+integrada,1,1
+terminado,5,"1, 3, 4, 7, 8"
+programacion,5,"1, 2, 3, 4, 5"
+soporte,4,"1, 2, 3, 7"
+tecnologias,4,"1, 2, 3, 7"
+molienda,3,"1, 3, 8"
+aeronaves,6,"1, 3, 4, 7, 8, 9"
+procesamieno,1,1
+pescado,5,"1, 3, 7, 8, 9"
+cantera,4,"1, 3, 7, 8"
+mina,4,"1, 3, 8, 9"
+extraccion,4,"1, 2, 3, 8"
+minas,5,"1, 2, 3, 7, 8"
+pozo,3,"1, 3, 8"
+petrolero,2,"1, 9"
+perforacion,4,"1, 2, 3, 8"
+canteras,5,"1, 3, 7, 8, 9"
+campo,8,"1, 2, 3, 5, 6, 7, 8, 9"
+primaria,2,"1, 2"
+agricultura,4,"1, 2, 3, 9"
+proyecto,3,"1, 2, 3"
+topografico,3,"1, 2, 3"
+obra,6,"1, 2, 3, 4, 7, 9"
+vivienda,3,"1, 2, 3"
+residencial,5,"1, 2, 3, 5, 7"
+demoliciones,1,1
+sociedad,1,1
+sucursal,1,1
+instalaciones,6,"1, 2, 3, 7, 8, 9"
+fisicas,2,"1, 2"
+arquitectura,3,"1, 2, 3"
+arquitecto,2,"1, 2"
+edificaciones,4,"1, 2, 3, 7"
+construcciones,4,"1, 2, 3, 8"
+compras,3,"1, 3, 4"
+abastecimiento,3,"1, 4, 7"
+adquisiciones,4,"1, 2, 3, 4"
+materiales,7,"1, 2, 3, 4, 7, 8, 9"
+suministros,4,"1, 2, 3, 4"
+recepcion,5,"1, 3, 4, 5, 7"
+mercancias,3,"1, 3, 9"
+correos,4,"1, 3, 4, 8"
+correo,3,"1, 3, 4"
+mensajeria,2,"1, 3"
+postal,3,"1, 4, 8"
+correspondencia,3,"1, 3, 4"
+courier,2,"1, 9"
+encomienda,1,1
+postales,1,1
+carga,6,"1, 3, 4, 7, 8, 9"
+logistica,3,"1, 2, 3"
+centro,5,"1, 2, 3, 4, 5"
+buses,1,1
+ferroviaria,2,"1, 3"
+fletes,1,1
+aereo,6,"1, 2, 3, 4, 7, 9"
+planificacion,4,"1, 2, 3, 4"
+sistema,5,"1, 2, 3, 7, 8"
+urbano,4,"1, 2, 3, 4"
+division,1,1
+embarques,1,1
+inversa,1,1
+maritimo,5,"1, 2, 3, 4, 7"
+terrestre,5,"1, 2, 3, 4, 5"
+terminal,1,1
+almacenamiento,2,"1, 3"
+bodegaje,1,1
+trafico,7,"1, 2, 3, 4, 5, 7, 9"
+almacen,4,"1, 4, 5, 9"
+bodega,4,"1, 3, 4, 9"
+logisticas,1,1
+terminales,1,1
+fisicos,2,"1, 2"
+supply,1,1
+chain,1,1
+inventarios,3,"1, 3, 4"
+rotacion,2,"1, 8"
+existencias,3,"1, 4, 9"
+aplicaciones,4,"1, 2, 3, 7"
+sistemas,6,"1, 2, 3, 7, 8, 9"
+datos,5,"1, 2, 3, 4, 7"
+tecnologia,4,"1, 2, 3, 7"
+internet,4,"1, 2, 3, 5"
+proveedor,3,"1, 5, 9"
+head,1,1
+analytics,2,"1, 2"
+data,3,"1, 2, 3"
+canal,2,"1, 8"
+audiovisuales,3,"1, 2, 3"
+audiovisual,5,"1, 2, 3, 4, 8"
+cinematografica,2,"1, 3"
+programadora,1,1
+cuidado,4,"1, 2, 3, 5"
+ninos,4,"1, 2, 3, 5"
+horario,2,"1, 5"
+escolar,6,"1, 2, 3, 4, 5, 8"
+infantil,4,"1, 2, 3, 5"
+infancia,4,"1, 2, 3, 5"
+diurno,2,"1, 5"
+jardin,3,"1, 2, 5"
+guarderia,2,"1, 5"
+clinico,4,"1, 2, 3, 5"
+medico,5,"1, 2, 3, 4, 7"
+urgencias,3,"1, 2, 3"
+enfermeria,4,"1, 2, 3, 5"
+prestadora,1,1
+rehabilitacion,3,"1, 2, 3"
+medica,4,"1, 2, 3, 5"
+enfermera,3,"1, 2, 3"
+atencion,5,"1, 2, 3, 4, 5"
+cirugia,4,"1, 2, 3, 7"
+comunitaria,4,"1, 2, 3, 5"
+dietetica,2,"1, 2"
+nutricion,2,"1, 2"
+fisioterapia,3,"1, 2, 3"
+hogar,4,"1, 3, 5, 9"
+ancianos,2,"1, 5"
+residencia,1,1
+geriatrica,1,1
+personas,4,"1, 2, 3, 5"
+edad,2,"1, 5"
+mayores,3,"1, 5, 6"
+albergue,1,1
+alojamiento,3,"1, 4, 5"
+casa,4,"1, 4, 5, 8"
+complejo,1,1
+jubilados,1,1
+cuidados,3,"1, 2, 5"
+comunitarios,3,"1, 2, 5"
+matrona,2,"1, 5"
+detencion,1,1
+comunitario,4,"1, 2, 3, 5"
+riesgo,3,"1, 2, 3"
+desastres,2,"1, 2"
+emergencias,2,"1, 2"
+labor,2,"1, 2"
+familia,4,"1, 2, 3, 8"
+sociales,4,"1, 2, 3, 5"
+correccionales,1,1
+curricular,2,"1, 2"
+nucleo,1,1
+educativo,2,"1, 2"
+superior,3,"1, 2, 5"
+formacion,3,"1, 2, 3"
+decano,1,1
+carrera,2,"1, 3"
+aprendizaje,3,"1, 2, 3"
+escuela,2,"1, 2"
+aviacion,3,"1, 3, 7"
+facultad,1,1
+academica,2,"1, 2"
+postgrados,1,1
+musica,4,"1, 2, 3, 4"
+cuerpo,2,"1, 5"
+docente,2,"1, 2"
+universitario,2,"1, 2"
+secundaria,2,"1, 2"
+basica,2,"1, 2"
+media,2,"1, 2"
+colegio,2,"1, 2"
+pensiones,4,"1, 2, 3, 4"
+cesantias,3,"1, 3, 4"
+agencia,2,"1, 4"
+cooperativa,2,"1, 4"
+biblioteca,4,"1, 2, 3, 4"
+museo,4,"1, 2, 3, 5"
+archivistica,3,"1, 3, 4"
+archivo,5,"1, 2, 3, 4, 7"
+documental,3,"1, 2, 3"
+conservacion,3,"1, 2, 3"
+restauracion,3,"1, 2, 3"
+documentacion,3,"1, 2, 4"
+cinemateca,1,1
+arte,4,"1, 2, 3, 5"
+cultura,3,"1, 2, 3"
+galeria,5,"1, 2, 3, 5, 8"
+archivos,3,"1, 2, 3"
+patrimonio,3,"1, 2, 3"
+filmico,2,"1, 2"
+bibliotecologo,2,"1, 2"
+contenidos,3,"1, 2, 3"
+negocio,4,"1, 2, 3, 5"
+consultorio,5,"1, 2, 3, 4, 5"
+prision,2,"1, 5"
+juridicos,2,"1, 3"
+penitenciarios,1,1
+metodos,3,"1, 2, 3"
+certificado,2,"1, 2"
+vuelo,4,"1, 3, 4, 5"
+correctivos,1,1
+emergencia,3,"1, 3, 4"
+abogados,2,"1, 3"
+vigilancia,2,"1, 5"
+inmigracion,2,"1, 3"
+estadistica,4,"1, 2, 3, 4"
+estudiantil,2,"1, 2"
+motel,1,1
+pension,1,1
+hostal,1,1
+juvenil,3,"1, 2, 3"
+huespedes,2,"1, 5"
+hospedaje,2,"1, 5"
+hoteleros,2,"1, 9"
+hosteleria,2,"1, 9"
+reservaciones,2,"1, 4"
+cadenas,2,"1, 8"
+gestor,4,"1, 2, 3, 4"
+reservas,3,"1, 4, 5"
+posadero,1,1
+cafe,7,"1, 3, 5, 6, 7, 8, 9"
+cafeteria,3,"1, 5, 9"
+restaurante,3,"1, 5, 9"
+banquetes,3,"1, 3, 5"
+cantina,2,"1, 5"
+autoservicio,3,"1, 3, 5"
+comidas,4,"1, 2, 5, 9"
+drogueria,3,"1, 3, 5"
+punto,5,"1, 3, 5, 7, 8"
+venta,5,"1, 3, 5, 6, 9"
+sala,7,"1, 2, 3, 4, 5, 7, 9"
+belleza,2,"1, 5"
+supermercado,3,"1, 5, 7"
+anticuarista,1,1
+comerciante,4,"1, 3, 5, 9"
+antiguedades,1,1
+galerista,1,1
+mayorista,3,"1, 3, 7"
+minorista,2,"1, 3"
+comestibles,3,"1, 8, 9"
+concesionario,1,1
+lavanderia,4,"1, 5, 8, 9"
+libreria,1,1
+descuento,1,1
+pedido,2,"1, 5"
+marchante,1,1
+planner,3,"1, 2, 3"
+prendero,1,1
+ballet,2,"1, 2"
+cultural,4,"1, 2, 3, 5"
+teatro,6,"1, 2, 3, 5, 7, 9"
+conservatorio,2,"1, 2"
+musicales,4,"1, 2, 3, 7"
+festival,2,"1, 3"
+musical,4,"1, 2, 3, 5"
+cine,6,"1, 2, 3, 5, 8, 9"
+promotor,6,"1, 2, 3, 4, 5, 6"
+eventos,6,"1, 2, 3, 5, 7, 9"
+danza,3,"1, 2, 3"
+actividades,3,"1, 2, 3"
+culturales,3,"1, 3, 6"
+productor,5,"1, 2, 3, 6, 7"
+fonografico,1,1
+vacacional,1,1
+gimnasio,2,"1, 3"
+recreacion,3,"1, 3, 9"
+recreativas,1,1
+espectaculos,5,"1, 2, 3, 7, 9"
+actividad,2,"1, 3"
+fisica,3,"1, 2, 3"
+esparcimiento,1,1
+deportes,3,"1, 2, 3"
+deporte,4,"1, 3, 8, 9"
+estetica,2,"1, 2"
+casino,1,1
+diversiones,2,"1, 9"
+equitacion,2,"1, 3"
+deportivos,6,"1, 2, 3, 5, 6, 7"
+parque,4,"1, 5, 6, 9"
+atracciones,3,"1, 3, 9"
+tematico,3,"1, 2, 5"
+billar,3,"1, 3, 9"
+pool,1,1
+equipo,8,"1, 2, 3, 4, 6, 7, 8, 9"
+inmuebles,2,"1, 2"
+condominio,1,1
+copropiedad,1,1
+mixta,3,"1, 6, 9"
+horizontal,2,"1, 7"
+edificio,3,"1, 3, 5"
+propiedades,2,"1, 3"
+camping,1,1
+autocaravanas,1,1
+conferencias,3,"1, 2, 3"
+contactos,1,1
+convenciones,2,"1, 3"
+personales,2,"1, 5"
+conduccion,2,"1, 5"
+modelaje,2,"1, 2"
+aseo,3,"1, 5, 9"
+astrofisico,1,2
+astronomo,1,2
+balistico,1,2
+investigador,2,"2, 3"
+experto,4,"2, 3, 5, 8"
+aerodinamica,1,2
+fisico,2,"2, 3"
+atmosferico,1,2
+acustica,2,"2, 3"
+balistica,2,"2, 3"
+electricidad,3,"2, 3, 7"
+magnetismo,1,2
+electronica,4,"2, 3, 7, 8"
+estatica,1,2
+mecanica,5,"2, 3, 7, 8, 9"
+optica,4,"2, 3, 7, 8"
+reologia,1,2
+solidos,2,"2, 3"
+termica,3,"2, 3, 7"
+termodinamica,1,2
+teorica,1,2
+solido,2,"2, 7"
+experimental,1,2
+molecular,1,2
+nuclear,2,"2, 3"
+hidrodinamico,1,2
+radioastronomo,1,2
+reologista,1,2
+reologo,1,2
+termodinamicista,1,2
+climatologo,1,2
+hidrometeorologo,1,2
+meteorologo,2,"2, 3"
+pronosticador,1,2
+analista,3,"2, 3, 7"
+suelos,3,"2, 3, 7"
+asesor,4,"2, 3, 4, 5"
+quimica,4,"2, 3, 8, 9"
+desarrollador,1,2
+analitico,1,2
+electroquimico,1,2
+especialista,4,"2, 3, 5, 7"
+quimiometria,1,2
+analitica,1,2
+computacional,1,2
+cristalografo,1,2
+cueros,3,"2, 7, 8"
+caucho,6,"2, 3, 6, 7, 8, 9"
+pieles,4,"2, 6, 7, 8"
+detergentes,2,"2, 8"
+patentes,2,"2, 3"
+petroquimica,2,"2, 3"
+plasticos,5,"2, 3, 7, 8, 9"
+resinas,2,"2, 8"
+polimeros,1,2
+textiles,5,"2, 3, 7, 8, 9"
+forense,2,"2, 3"
+inorganico,1,2
+organico,1,2
+toxicologico,1,2
+estratigrafista,1,2
+estratigrafo,1,2
+geocientifico,1,2
+geofisico,2,"2, 3"
+geomagnetismo,1,2
+geomorfologia,1,2
+hidrologia,2,"2, 3"
+magneticos,1,2
+sismologia,1,2
+vulcanologia,1,2
+geohidrologo,1,2
+geologo,2,"2, 3"
+exploracion,2,"2, 3"
+micropaleontologia,1,2
+paleontologia,1,2
+estratigrafia,1,2
+ingeniero,2,"2, 3"
+geomagneticista,1,2
+geomagnetista,1,2
+geomorfologo,1,2
+geoquimico,1,2
+geotecnologo,1,2
+glaciologo,1,2
+hidrogeologo,1,2
+hidrologo,1,2
+hidrometrista,1,2
+micropaleontologo,1,2
+mineralogista,1,2
+paleontologo,1,2
+petrologo,1,2
+sismologo,1,2
+vulcanologo,1,2
+gemologo,1,2
+avaluador,2,"2, 3"
+gemas,1,2
+diamantes,3,"2, 7, 8"
+especimenes,1,2
+minerales,5,"2, 3, 7, 8, 9"
+gemologico,1,2
+biogenicas,1,2
+color,4,"2, 3, 7, 8"
+sinteticos,2,"2, 7"
+compuestos,1,2
+talla,3,"2, 7, 8"
+tratamientos,3,"2, 5, 8"
+gemologicos,1,2
+evaluador,3,"2, 3, 6"
+joyas,4,"2, 3, 7, 8"
+graduador,1,2
+oceanografico,1,2
+oceanologo,1,2
+oceanografo,1,2
+geofisica,2,"2, 3"
+geologia,2,"2, 3"
+geologico,2,"2, 3"
+actuario,1,2
+bioestadistico,1,2
+biometrista,1,2
+demografo,1,2
+estadigrafo,1,2
+aplicada,2,"2, 3"
+estadistico,2,"2, 3"
+biometria,1,2
+demografia,1,2
+economia,1,2
+encuestas,1,2
+matematico,2,"2, 3"
+operativa,1,2
+matematica,1,2
+pura,1,2
+estadista,1,2
+tecnologo,2,"2, 3"
+agrobiotecnologo,1,2
+laboratorista,2,"2, 3"
+microbiologia,2,"2, 3"
+anatomista,1,2
+asociado,1,2
+bacteriologo,1,2
+farmaceutica,2,"2, 3"
+hematologia,2,"2, 3"
+medicina,2,"2, 3"
+veterinaria,3,"2, 3, 5"
+bioanalista,1,2
+biofisico,1,2
+biologo,1,2
+genetica,2,"2, 3"
+hidrobiologia,1,2
+marino,3,"2, 3, 7"
+bioquimico,1,2
+biotecnologo,1,2
+botanico,1,2
+taxonomia,1,2
+comida,2,"2, 5"
+citologo,1,2
+botanica,2,"2, 3"
+zoologia,2,"2, 3"
+embriologo,1,2
+entomologo,1,2
+epidemiologo,1,2
+conducta,1,2
+farmacologia,2,"2, 3"
+etologo,1,2
+farmacologo,1,2
+fisiologo,1,2
+endocrinologia,1,2
+epidemiologia,1,2
+neurologia,1,2
+veterinario,2,"2, 3"
+fitopatologo,1,2
+genetista,1,2
+celular,2,"2, 7"
+helmintologo,1,2
+herpetologo,1,2
+hidrobiologo,1,2
+histologo,1,2
+animales,5,"2, 5, 6, 7, 9"
+plantas,5,"2, 3, 6, 7, 9"
+ictiologo,1,2
+genetico,1,2
+inmunologo,1,2
+biomedico,1,2
+obstetricia,2,"2, 5"
+lepidopterologo,1,2
+mamalogista,1,2
+mastozoologo,1,2
+micologo,1,2
+microbiologo,1,2
+ornitologo,1,2
+parasitologo,1,2
+patologo,1,2
+taxonomista,1,2
+toxicologo,1,2
+virologo,1,2
+zoologo,1,2
+agente,6,"2, 3, 4, 5, 8, 9"
+agrologo,1,2
+agronomo,2,"2, 3"
+ecologia,2,"2, 3"
+edafologia,1,2
+floricultura,3,"2, 3, 6"
+horticultura,4,"2, 3, 6, 9"
+cultivos,4,"2, 3, 6, 9"
+horticola,1,2
+edafologo,1,2
+extension,2,"2, 3"
+riegos,1,2
+comportamiento,1,2
+zootecnista,2,"2, 3"
+implementador,2,"2, 6"
+practicas,2,"2, 3"
+pecuarias,2,"2, 3"
+pomologo,1,2
+transferidor,1,2
+agricolas,5,"2, 3, 7, 8, 9"
+ganaderas,1,2
+arborista,1,2
+consultor,4,"2, 3, 4, 5"
+suelo,4,"2, 3, 7, 8"
+dasonomo,1,2
+cosechas,3,"2, 3, 9"
+arboles,4,"2, 6, 8, 9"
+bosque,1,2
+perito,2,"2, 3"
+silvicultor,1,2
+campos,2,"2, 6"
+agroecologica,1,2
+ecologica,3,"2, 3, 6"
+extensionista,1,2
+rural,2,"2, 3"
+ambientalista,1,2
+agua,7,"2, 3, 5, 6, 7, 8, 9"
+contaminacion,2,"2, 3"
+aire,3,"2, 3, 7"
+degradacion,1,2
+tierra,5,"2, 3, 7, 8, 9"
+auditor,3,"2, 3, 7"
+hidricos,1,2
+modelizacion,1,2
+salinidad,1,2
+conservacionista,1,2
+ecologico,1,2
+controlador,4,"2, 3, 4, 7"
+captacion,1,2
+ambientales,2,"2, 3"
+ecologista,1,2
+ecologo,1,2
+cursos,1,2
+cuencas,1,2
+hidrograficas,1,2
+flora,1,2
+fauna,1,2
+vegetacion,1,2
+residuos,4,"2, 3, 8, 9"
+medioambientales,1,2
+responsabilidad,1,2
+sostenibilidad,1,2
+revegetacion,1,2
+funcionario,2,"2, 3"
+guardaparques,1,2
+interventor,1,2
+limnologo,1,2
+medioambiental,1,2
+supervisor,4,"2, 3, 4, 5"
+eficiencia,2,"2, 3"
+estudio,4,"2, 3, 7, 8"
+tiempos,2,"2, 3"
+movimientos,2,"2, 3"
+proceso,5,"2, 3, 7, 8, 9"
+embalaje,1,2
+mejoramiento,1,2
+productividad,1,2
+direccion,3,"2, 3, 7"
+ergonomia,1,2
+geotecnico,1,2
+geotecnista,1,2
+obras,4,"2, 3, 4, 9"
+civiles,2,"2, 3"
+cartografia,2,"2, 3"
+aeropuertos,1,2
+edificios,3,"2, 3, 7"
+estructuras,4,"2, 3, 7, 8"
+puentes,3,"2, 3, 7"
+tuneles,1,2
+vias,4,"2, 3, 8, 9"
+portuarias,1,2
+hidraulica,2,"2, 3"
+irrigacion,3,"2, 3, 6"
+urbanismo,1,2
+puertos,1,2
+dragado,2,"2, 8"
+estructura,1,2
+acueductos,1,2
+riego,4,"2, 3, 6, 7"
+estructural,2,"2, 3"
+hidraulico,3,"2, 7, 8"
+residente,2,"2, 3"
+sanitario,2,"2, 3"
+impacto,1,2
+energetica,1,2
+remediacion,1,2
+recuperacion,3,"2, 3, 9"
+saneamiento,2,"2, 3"
+planificador,3,"2, 3, 4"
+disenador,3,"2, 5, 7"
+maquinas,6,"2, 3, 4, 7, 8, 9"
+motores,4,"2, 3, 7, 8"
+automoviles,6,"2, 3, 5, 7, 8, 9"
+termicas,2,"2, 3"
+mecanico,4,"2, 3, 7, 8"
+automotriz,4,"2, 3, 7, 9"
+calefaccion,3,"2, 3, 7"
+ventilacion,5,"2, 3, 7, 8, 9"
+acondicionado,3,"2, 3, 7"
+criogenico,1,2
+diesel,5,"2, 3, 7, 8, 9"
+instrumentos,5,"2, 3, 5, 7, 8"
+mecanicos,4,"2, 3, 7, 8"
+locomotora,3,"2, 3, 8"
+lubricacion,2,"2, 3"
+maquinaria,5,"2, 3, 7, 8, 9"
+herramientas,4,"2, 3, 7, 8"
+matriceria,1,2
+reaccion,3,"2, 3, 7"
+combustion,3,"2, 3, 8"
+interna,3,"2, 3, 8"
+locomotoras,2,"2, 8"
+mecanicas,2,"2, 3"
+refrigeracion,5,"2, 3, 7, 8, 9"
+soldadura,4,"2, 7, 8, 9"
+turbina,2,"2, 3"
+cientificos,1,2
+energeticos,1,2
+turbinas,4,"2, 3, 7, 8"
+mecatronico,1,2
+basado,2,"2, 3"
+condicion,2,"2, 3"
+integridad,2,"2, 3"
+navales,1,2
+naval,3,"2, 3, 7"
+buques,3,"2, 7, 9"
+embarcaciones,2,"2, 8"
+marinos,3,"2, 7, 8"
+aviones,5,"2, 3, 7, 8, 9"
+aeroespacial,2,"2, 3"
+aeromecanica,2,"2, 7"
+enologo,1,2
+fabricante,4,"2, 3, 7, 8"
+vino,1,2
+bioquimica,2,"2, 3"
+combustibles,1,2
+facilidades,4,"2, 3, 8, 9"
+natural,5,"2, 3, 5, 7, 8"
+petroquimico,2,"2, 3"
+cosmeticos,3,"2, 5, 8"
+carburantes,1,2
+colores,1,2
+pinturas,1,2
+fibras,5,"2, 3, 7, 8, 9"
+papel,5,"2, 3, 7, 8, 9"
+bioquimicos,1,2
+medicion,2,"2, 3"
+neumaticos,3,"2, 3, 8"
+pintura,5,"2, 3, 7, 8, 9"
+polimero,1,2
+pulpa,5,"2, 3, 7, 8, 9"
+elaboracion,5,"2, 3, 7, 8, 9"
+cerveza,2,"2, 7"
+ensayador,4,"2, 3, 5, 7"
+minero,5,"2, 3, 5, 8, 9"
+extractivo,1,2
+metales,5,"2, 3, 7, 8, 9"
+aurifera,1,2
+aluvial,1,2
+cielo,3,"2, 3, 7"
+abierto,3,"2, 3, 7"
+fundicion,5,"2, 3, 7, 8, 9"
+metalurgia,4,"2, 3, 7, 8"
+afino,2,"2, 3"
+siderurgia,2,"2, 3"
+metalurgico,2,"2, 3"
+metalurgica,1,2
+down,2,"2, 8"
+hole,2,"2, 8"
+pozos,5,"2, 3, 7, 8, 9"
+petroleos,2,"2, 3"
+extractor,3,"2, 8, 9"
+artefactos,2,"2, 7"
+explosivos,5,"2, 3, 7, 8, 9"
+ceramicas,1,2
+textil,5,"2, 3, 7, 8, 9"
+cemento,4,"2, 3, 7, 8"
+ceramica,5,"2, 3, 7, 8, 9"
+cristal,2,"2, 7"
+madera,6,"2, 3, 6, 7, 8, 9"
+cuero,4,"2, 3, 7, 8"
+bioingeniero,1,2
+biotecnologia,1,2
+computadores,3,"2, 3, 7"
+costo,1,2
+robotica,2,"2, 3"
+salvamento,4,"2, 5, 7, 8"
+higiene,3,"2, 3, 5"
+electrico,4,"2, 3, 7, 8"
+transito,2,"2, 5"
+presupuestos,2,"2, 4"
+optico,4,"2, 3, 7, 8"
+impresion,4,"2, 3, 7, 9"
+maquina,6,"2, 3, 4, 7, 8, 9"
+motor,4,"2, 3, 7, 8"
+voltaje,1,2
+electricas,4,"2, 3, 7, 8"
+potencia,2,"2, 8"
+electromecanica,2,"2, 3"
+iluminacion,2,"2, 3"
+luces,2,"2, 3"
+redes,4,"2, 3, 7, 8"
+electricos,4,"2, 3, 7, 8"
+traccion,4,"2, 7, 8, 9"
+electricista,3,"2, 3, 7"
+instrumentacion,3,"2, 3, 7"
+instalacion,4,"2, 3, 7, 8"
+tendidos,1,2
+lineas,4,"2, 3, 4, 7"
+electromecanico,3,"2, 3, 7"
+confiabilidad,1,2
+subestaciones,2,"2, 3"
+inspeccion,2,"2, 3"
+electronico,3,"2, 3, 7"
+circuitos,3,"2, 3, 8"
+impresos,3,"2, 3, 8"
+digital,3,"2, 3, 7"
+computacion,2,"2, 3"
+equipos,5,"2, 3, 7, 8, 9"
+computo,3,"2, 3, 7"
+firmware,1,2
+hardware,2,"2, 3"
+semiconductores,2,"2, 3"
+embebidos,1,2
+informatico,2,"2, 3"
+autotronica,2,"2, 7"
+automatizacion,3,"2, 3, 7"
+electromecatronica,1,2
+mecatronica,2,"2, 3"
+difusion,2,"2, 3"
+emision,2,"2, 3"
+radar,3,"2, 3, 7"
+radiodifusion,2,"2, 3"
+senal,1,2
+telefono,3,"2, 3, 5"
+telegrafo,3,"2, 3, 4"
+audio,3,"2, 3, 7"
+efectos,3,"2, 3, 5"
+sonido,3,"2, 3, 7"
+sonoro,1,2
+calibracion,2,"2, 3"
+edicion,3,"2, 3, 4"
+grabacion,3,"2, 3, 7"
+vivo,3,"2, 3, 6"
+mastering,2,"2, 3"
+masterizacion,2,"2, 3"
+mezcla,4,"2, 3, 8, 9"
+monitores,2,"2, 3"
+postproductor,1,2
+restaurador,2,"2, 7"
+constructor,4,"2, 3, 7, 8"
+interiores,2,"2, 3"
+edificador,1,2
+proyectista,2,"2, 3"
+urbanista,1,2
+jardines,5,"2, 3, 5, 6, 9"
+paisaje,2,"2, 3"
+paisajista,2,"2, 6"
+creativo,1,2
+componentes,4,"2, 3, 7, 8"
+concepto,1,2
+empaques,3,"2, 3, 8"
+envases,3,"2, 8, 9"
+embalajes,1,2
+mobiliario,2,"2, 4"
+moldes,4,"2, 3, 7, 9"
+objetos,3,"2, 7, 8"
+circulares,2,"2, 7"
+estrategico,1,2
+dibujante,2,"2, 3"
+moda,1,2
+accesorios,4,"2, 3, 7, 8"
+vestuario,2,"2, 3"
+estilismo,1,2
+imagen,4,"2, 3, 5, 7"
+indumentaria,1,2
+prendas,6,"2, 3, 5, 7, 8, 9"
+ropa,5,"2, 5, 7, 8, 9"
+interior,2,"2, 3"
+vestido,1,2
+artistico,3,"2, 3, 5"
+escenico,3,"2, 3, 5"
+especializado,6,"2, 3, 5, 6, 7, 9"
+laboral,3,"2, 3, 4"
+patronista,2,"2, 7"
+decorador,3,"2, 3, 7"
+espacios,3,"2, 3, 5"
+forestales,2,"2, 3"
+estudios,3,"2, 3, 4"
+utileria,2,"2, 3"
+acustico,2,"2, 7"
+decoracion,4,"2, 3, 7, 8"
+escenarios,3,"2, 3, 7"
+escenografia,2,"2, 3"
+culinarios,1,2
+gastronomicos,1,2
+exhibiciones,1,2
+efimeras,1,2
+funcionales,1,2
+muestras,3,"2, 3, 8"
+visuales,2,"2, 3"
+puestos,1,2
+escaparatista,2,"2, 3"
+contextos,1,2
+tendencias,1,2
+mercado,4,"2, 4, 5, 6"
+planes,1,2
+estrategicos,1,2
+iniciativas,1,2
+portafolios,1,2
+propuestas,1,2
+futuros,2,"2, 3"
+experiencias,1,2
+alimentarios,1,2
+pilares,1,2
+usuario,2,"2, 4"
+luminico,1,2
+arquitectonica,1,2
+artistica,2,"2, 3"
+fachadas,2,"2, 7"
+arquitectonicas,1,2
+escenica,2,"2, 3"
+paisajistica,1,2
+urbana,2,"2, 3"
+vial,4,"2, 3, 5, 9"
+ciudad,1,2
+parques,4,"2, 5, 6, 9"
+agrimensor,2,"2, 3"
+aerofotografo,1,2
+cartografo,2,"2, 3"
+compilador,3,"2, 3, 4"
+cartografico,2,"2, 3"
+disenos,1,2
+fotogrametrista,2,"2, 3"
+geodesta,1,2
+hidrografo,1,2
+catastral,2,"2, 3"
+agrimensura,2,"2, 9"
+geomatica,2,"2, 3"
+topografia,3,"2, 3, 9"
+geografo,1,2
+geomensor,2,"2, 3"
+topografo,2,"2, 3"
+geografica,2,"2, 3"
+tierras,4,"2, 3, 7, 8"
+fotografico,4,"2, 3, 7, 8"
+fotogrametrico,1,2
+geodesico,2,"2, 3"
+comunicador,1,2
+grafico,2,"2, 3"
+visual,2,"2, 3"
+publicitario,2,"2, 3"
+afiche,1,2
+branding,1,2
+elementos,1,2
+cubiertas,1,2
+libros,3,"2, 3, 4"
+etiquetas,1,2
+identidad,1,2
+narrativas,1,2
+storyteller,1,2
+piezas,3,"2, 3, 7"
+impresas,1,2
+articulos,4,"2, 3, 7, 8"
+senalizacion,1,2
+pictogramas,1,2
+exposiciones,2,"2, 3"
+heraldico,1,2
+ilustrador,2,"2, 3"
+tipografico,1,2
+visualizador,1,2
+datavis,1,2
+animador,3,"2, 3, 5"
+multimedia,1,2
+contenido,1,2
+pagina,2,"2, 3"
+sitio,2,"2, 3"
+artista,4,"2, 3, 5, 7"
+animacion,2,"2, 3"
+movimiento,5,"2, 3, 4, 7, 8"
+moviles,1,2
+interactivos,1,2
+experiencia,1,2
+digitales,2,"2, 3"
+creacion,1,2
+video,3,"2, 3, 7"
+disc,2,"2, 3"
+estrategias,1,2
+titulos,3,"2, 3, 4"
+peliculas,3,"2, 3, 8"
+htlm,1,2
+hypertext,1,2
+markup,1,2
+language,1,2
+interaccion,1,2
+interfaces,1,2
+juegos,5,"2, 3, 4, 7, 8"
+electronicos,4,"2, 3, 7, 8"
+computador,3,"2, 3, 7"
+mediaciones,1,2
+didacticas,1,2
+paginas,3,"2, 3, 7"
+interfases,1,2
+interacciones,1,2
+videojuegos,1,2
+visualizacion,1,2
+front,2,"2, 3"
+computarizado,2,"2, 3"
+tridimensional,1,2
+interactivo,1,2
+interfaz,1,2
+doctor,1,2
+terapeuta,3,"2, 3, 5"
+distrito,1,2
+adjunto,1,2
+cabecera,1,2
+domiciliario,3,"2, 5, 9"
+practicante,2,"2, 3"
+especializandose,1,2
+practica,2,"2, 3"
+zona,3,"2, 3, 5"
+pasante,1,2
+alergista,1,2
+anestesiologo,1,2
+anestesista,1,2
+cardiologo,1,2
+intervencionista,1,2
+cirujano,1,2
+cardiotoracico,1,2
+cardiologia,1,2
+plastica,1,2
+neurocirugia,1,2
+ortopedia,3,"2, 3, 7"
+ortopedico,4,"2, 3, 7, 8"
+osteopatico,1,2
+plastico,5,"2, 3, 7, 8, 9"
+toracico,1,2
+vascular,1,2
+dermatologo,1,2
+diabetologo,1,2
+anestesiologia,1,2
+dermatologia,1,2
+ginecologia,1,2
+especializada,1,2
+oftalmologia,2,"2, 3"
+otolaringologia,1,2
+otorrinolaringologia,1,2
+pediatria,1,2
+psiquiatria,2,"2, 5"
+radiologia,2,"2, 3"
+endocrinologo,1,2
+intensivos,3,"2, 3, 6"
+preventiva,1,2
+fisiatra,1,2
+gastroenterologo,1,2
+geriatra,1,2
+gerontologo,1,2
+ginecobstetra,1,2
+ginecologo,1,2
+hematologo,1,2
+hematoncologo,1,2
+histopatologo,1,2
+infectologo,1,2
+internista,1,2
+laringologo,1,2
+osteopatia,1,2
+deportologo,1,2
+ginecobstetricia,1,2
+neumologia,1,2
+oncologia,1,2
+anestesia,1,2
+gastroenterologia,1,2
+geriatria,1,2
+nefrologo,1,2
+neonatologo,1,2
+neumologo,1,2
+neurocirujano,1,2
+neurofisiologo,1,2
+neurologo,1,2
+neuropatologo,1,2
+obstetra,1,2
+oftalmologo,1,2
+oncologo,1,2
+radiologo,2,"2, 3"
+radioterapeuta,2,"2, 3"
+ortopedista,1,2
+traumatologo,1,2
+otologo,1,2
+otorrinolaringologo,1,2
+quirurgico,1,2
+pediatra,1,2
+psiquiatra,1,2
+reumatologo,1,2
+rinologo,1,2
+urologo,1,2
+domiciliaria,2,"2, 5"
+enfermero,2,"2, 3"
+neonatal,1,2
+paliativos,1,2
+nefrologia,1,2
+quirofano,1,2
+mental,2,"2, 3"
+sexual,2,"2, 5"
+reproductiva,1,2
+educador,2,"2, 5"
+familiar,3,"2, 3, 5"
+materno,1,2
+perinatal,1,2
+ortopedica,1,2
+registrado,1,2
+auxiliares,3,"2, 3, 5"
+partera,2,"2, 3"
+parteria,2,"2, 3"
+acupunturista,1,2
+homeopatia,2,"2, 3"
+china,1,2
+naturopatia,1,2
+herbolario,2,"2, 3"
+hipnoterapeuta,1,2
+homeopata,1,2
+ayurvedico,2,"2, 3"
+naturopata,1,2
+neuralterapeutico,1,2
+chino,1,2
+unani,1,2
+ayuverdico,1,2
+acupuntura,2,"2, 3"
+alternativa,2,"2, 3"
+hierbas,3,"2, 3, 7"
+herbolaria,1,2
+herbal,1,2
+reikista,1,2
+alternativo,1,2
+bionergetico,1,2
+filtros,3,"2, 3, 9"
+reiki,1,2
+manual,4,"2, 7, 8, 9"
+asistente,5,"2, 3, 4, 5, 7"
+diagnostico,3,"2, 3, 7"
+pacientes,2,"2, 5"
+paramedico,2,"2, 3"
+feldscher,1,2
+avanzada,2,"2, 5"
+medicas,3,"2, 3, 4"
+primarias,1,2
+avanzado,1,2
+prehospitalaria,2,"2, 3"
+cesarea,1,2
+instrumentador,1,2
+quirurgica,1,2
+patologia,2,"2, 3"
+bucodental,2,"2, 3"
+dental,3,"2, 3, 5"
+maxilofacial,1,2
+oral,3,"2, 3, 5"
+dentista,1,2
+endodoncista,1,2
+estomatologo,1,2
+implantologo,1,2
+odontologo,1,2
+prostodoncista,1,2
+ortodoncista,1,2
+pedodoncista,1,2
+periodoncista,1,2
+boticario,1,2
+farmacos,1,2
+galenico,1,2
+dispensador,2,"2, 3"
+farmaceuta,1,2
+hospitalario,1,2
+farmacia,3,"2, 3, 5"
+detal,3,"2, 5, 7"
+dispensacion,2,"2, 3"
+regulatorios,1,2
+radiologica,1,2
+ocupacionales,1,2
+ergonomista,1,2
+radiacion,2,"2, 3"
+higienista,2,"2, 3"
+salubrista,1,2
+ergoterapeuta,1,2
+fisioterapeuta,1,2
+geriatrico,2,"2, 5"
+pediatrico,1,2
+fisioterapista,1,2
+kinesiologo,1,2
+masajista,3,"2, 3, 5"
+kinesioterapeuta,1,2
+manipulacion,2,"2, 3"
+readaptacion,2,"2, 3"
+alimentacion,2,"2, 7"
+saludable,1,2
+dietista,2,"2, 5"
+nutricionista,1,2
+deportivas,1,2
+audiologo,1,2
+vestibular,1,2
+lenguaje,2,"2, 3"
+audiometrista,1,2
+audiologia,1,2
+fonoaudiologo,1,2
+critico,1,2
+discapacidad,2,"2, 5"
+foniatria,1,2
+terapia,2,"2, 3"
+miofuncional,1,2
+disfagia,1,2
+logopeda,1,2
+ortofonista,1,2
+oculista,1,2
+optometra,1,2
+ortoptica,1,2
+ortoptista,1,2
+optometrista,1,2
+contactologo,1,2
+ocular,1,2
+primario,2,"2, 3"
+segmento,1,2
+musicoterapeuta,1,2
+terapista,1,2
+respiratorio,1,2
+cardiorrespiratorio,1,2
+intensivo,1,2
+gimnasta,2,"2, 3"
+correctivo,1,2
+orientacion,1,2
+ciegos,1,2
+artes,3,"2, 3, 7"
+atletismo,2,"2, 3"
+drama,1,2
+poesia,1,2
+recreacional,1,2
+recreativo,1,2
+quiropractico,1,2
+osteopata,1,2
+podologo,2,"2, 3"
+quiropodista,1,2
+universitaria,1,2
+tecnica,2,"2, 3"
+maestro,4,"2, 3, 5, 7"
+profesor,1,2
+areas,3,"2, 6, 9"
+teoricas,1,2
+composicion,3,"2, 3, 7"
+agronomia,1,2
+antropologia,1,2
+arqueologia,1,2
+dramatico,1,2
+plasticas,2,"2, 8"
+bacteriologia,2,"2, 3"
+bellas,1,2
+ciencia,2,"2, 3"
+agronomicas,1,2
+biologicas,2,"2, 3"
+religiosas,1,2
+contaduria,1,2
+derecho,2,"2, 3"
+agrupaciones,1,2
+escultura,1,2
+filologia,1,2
+filosofia,1,2
+humanidades,1,2
+idiomas,1,2
+cuerda,2,"2, 7"
+viento,2,"2, 7"
+lenguas,1,2
+modernas,1,2
+literatura,1,2
+linguistica,1,2
+matematicas,1,2
+museologia,1,2
+musicoterapia,1,2
+odontologia,4,"2, 3, 5, 7"
+optometria,1,2
+preescolar,2,"2, 5"
+psicologia,1,2
+inmueble,2,"2, 3"
+mueble,2,"2, 3"
+sociologia,1,2
+teclados,1,2
+tecnologica,2,"2, 3"
+percusion,3,"2, 7, 8"
+sinfonica,2,"2, 7"
+memoria,1,2
+pedagogia,1,2
+biologia,2,"2, 3"
+titular,1,2
+tutor,1,2
+etnoeducador,1,2
+instructor,3,"2, 3, 5"
+accion,2,"2, 3"
+agroindustria,1,2
+cocina,5,"2, 3, 5, 7, 9"
+alfareria,4,"2, 7, 8, 9"
+country,1,2
+ruso,1,2
+artesanias,1,2
+bordados,1,2
+carpinteria,4,"2, 3, 7, 9"
+cesteria,1,2
+cosmetologia,1,2
+ebanisteria,2,"2, 7"
+vocacional,1,2
+estampado,3,"2, 7, 8"
+etiqueta,1,2
+glamour,1,2
+pedagogica,1,2
+competencias,1,2
+hoteleria,1,2
+instituto,1,2
+joyeria,3,"2, 3, 7"
+munequeria,1,2
+pesado,4,"2, 3, 7, 8"
+peluqueria,1,2
+climatizacion,2,"2, 7"
+secretariado,1,2
+supervivencia,1,2
+tejidos,4,"2, 3, 7, 8"
+vitraleria,1,2
+emprendimiento,1,2
+complementaria,1,2
+apicultura,2,"2, 3"
+forrajes,1,2
+verdes,2,"2, 6"
+bioseguridad,1,2
+guadua,2,"2, 7"
+cooperativismo,1,2
+cacao,5,"2, 6, 7, 8, 9"
+palma,2,"2, 6"
+aceite,3,"2, 6, 8"
+hidroponicos,2,"2, 6"
+dibujo,2,"2, 3"
+dulces,3,"2, 7, 8"
+postres,1,2
+carnicos,4,"2, 3, 7, 8"
+ceramicos,1,2
+etica,1,2
+formulacion,1,2
+ganaderia,3,"2, 6, 9"
+bovina,1,2
+granjas,1,2
+integrales,1,2
+huerta,2,"2, 9"
+casera,1,2
+piscicultura,2,"2, 9"
+frutas,5,"2, 3, 7, 8, 9"
+verduras,4,"2, 5, 7, 8"
+mesa,5,"2, 3, 4, 5, 7"
+modisteria,2,"2, 7"
+panaderia,4,"2, 7, 8, 9"
+pasteleria,4,"2, 3, 7, 8"
+jaws,1,2
+acceso,1,2
+bachillerato,1,2
+espanol,1,2
+valores,4,"2, 3, 4, 5"
+ingles,1,2
+religion,1,2
+ensenanza,2,"2, 5"
+preprimaria,1,2
+acompanante,2,"2, 5"
+pedagogico,1,2
+educativos,1,2
+plan,2,"2, 5"
+curriculo,1,2
+ayudas,1,2
+pedagogicas,1,2
+didactico,1,2
+didacticos,1,2
+auxiliar,8,"2, 3, 4, 5, 6, 7, 8, 9"
+pedagogicos,1,2
+escuelas,1,2
+discapacitados,3,"2, 3, 5"
+mentalmente,1,2
+sordomudos,1,2
+senas,1,2
+discapacitadas,1,2
+signos,1,2
+auditivos,1,2
+mentales,1,2
+talentosos,1,2
+ciegas,1,2
+mudas,1,2
+sordas,1,2
+necesidades,1,2
+educativas,1,2
+especiales,4,"2, 3, 5, 7"
+braille,2,"2, 7"
+mudos,1,2
+sordos,1,2
+inclusiva,1,2
+alumnos,1,2
+dificultades,1,2
+problemas,1,2
+deficiencias,1,2
+auditivas,2,"2, 8"
+pedagogo,1,2
+reeducador,1,2
+lengua,1,2
+idioma,1,2
+practico,2,"2, 3"
+intensiva,1,2
+inmigrantes,1,2
+particular,2,"2, 8"
+extranjera,1,2
+migrantes,1,2
+clases,1,2
+particulares,1,2
+entrenador,4,"2, 3, 4, 5"
+vocal,1,2
+canto,1,2
+guitarra,1,2
+piano,2,"2, 7"
+violin,1,2
+monitor,2,"2, 6"
+arpa,1,2
+cuerdas,3,"2, 7, 8"
+frotadas,1,2
+virtuales,1,2
+aula,1,2
+pulsadas,1,2
+informal,1,2
+bandas,1,2
+nivel,3,"2, 3, 8"
+basico,3,"2, 3, 8"
+academias,1,2
+coros,1,2
+musicas,2,"2, 7"
+urbanas,1,2
+orquesta,1,2
+iniciacion,1,2
+metal,5,"2, 3, 7, 8, 9"
+privado,2,"2, 3"
+tradicionales,5,"2, 3, 5, 7, 9"
+flautas,1,2
+tambores,1,2
+violines,1,2
+caucanos,1,2
+trova,1,2
+parranda,1,2
+region,1,2
+noroccidente,1,2
+colombia,1,2
+islas,1,2
+torbellino,1,2
+andina,1,2
+nororiente,1,2
+llanos,1,2
+marimba,1,2
+pacifico,1,2
+pitos,1,2
+costa,1,2
+norte,1,2
+rajalena,1,2
+cucamba,1,2
+acordeon,2,"2, 7"
+trapecio,1,2
+amazonico,1,2
+formador,1,2
+actores,1,2
+reparto,3,"2, 8, 9"
+infantiles,1,2
+baile,2,"2, 5"
+combate,1,2
+academia,2,"2, 5"
+preparador,6,"2, 3, 5, 7, 8, 9"
+actuacion,2,"2, 3"
+software,2,"2, 3"
+teleinformatica,1,2
+virtualizacion,1,2
+estudiantes,1,2
+orientador,2,"2, 9"
+debates,1,2
+alfabetizacion,1,2
+formal,1,2
+aritmetica,1,2
+caligrafia,1,2
+entrenamiento,2,"2, 3"
+corte,6,"2, 3, 6, 7, 8, 9"
+confeccion,5,"2, 3, 7, 8, 9"
+elocucion,1,2
+cesionario,1,2
+insolvencia,1,2
+quiebra,1,2
+contable,3,"2, 3, 4"
+nave,2,"2, 3"
+tributario,2,"2, 3"
+economo,2,"2, 5"
+examinador,4,"2, 3, 5, 7"
+fideicomisario,1,2
+fiduciario,1,2
+cuentas,4,"2, 3, 4, 7"
+liquidador,3,"2, 3, 4"
+cumplimiento,1,2
+sarlaft,1,2
+lavado,4,"2, 7, 8, 9"
+activos,1,2
+financiacion,2,"2, 3"
+terrorismo,1,2
+sagrlaft,1,2
+autocontrol,1,2
+revisor,4,"2, 3, 7, 9"
+deuda,1,2
+jubilacion,1,2
+institucional,1,2
+pyme,1,2
+mediana,1,2
+asesoramiento,1,2
+clientes,3,"2, 3, 4"
+inmobiliario,2,"2, 3"
+bonos,3,"2, 3, 4"
+fiduciarios,1,2
+renta,1,2
+fija,3,"2, 3, 8"
+clima,1,2
+cambio,3,"2, 3, 4"
+procedimientos,1,2
+facilitador,1,2
+prospectiva,1,2
+privatizacion,1,2
+sector,2,"2, 3"
+estructurado,1,2
+estrategia,1,2
+inteligencia,1,2
+censurador,1,2
+parlamentaria,1,2
+revision,3,"2, 3, 7"
+empleos,1,2
+ocupaciones,2,"2, 3"
+salarios,2,"2, 4"
+arbitro,2,"2, 3"
+carreras,3,"2, 3, 5"
+conciliador,1,2
+reclutamiento,2,"2, 3"
+entrevistador,2,"2, 4"
+mediador,2,"2, 3"
+cazatalentos,1,2
+recolocacion,1,2
+desempeno,1,2
+consumidor,2,"2, 3"
+autor,1,2
+publicista,1,2
+publicitaria,1,2
+estratega,1,2
+mercadotecnista,1,2
+redactor,3,"2, 3, 7"
+anuncios,2,"2, 7"
+campanas,2,"2, 7"
+publicitarias,2,"2, 3"
+research,1,2
+analysts,1,2
+mercadologo,1,2
+comunidades,2,"2, 3"
+literarios,1,2
+artistas,2,"2, 5"
+chief,1,2
+content,1,2
+officer,1,2
+community,1,2
+manager,2,"2, 3"
+cool,1,2
+hunter,1,2
+generador,3,"2, 3, 7"
+influencer,1,2
+influenciador,1,2
+strategist,1,2
+youtuber,1,2
+ordenadores,1,2
+interinstitucionales,1,2
+cabildero,1,2
+escritor,1,2
+enlace,1,2
+relacionista,1,2
+relator,3,"2, 3, 4"
+tecnicas,3,"2, 3, 7"
+farmaceuticos,4,"2, 3, 5, 8"
+medicos,2,"2, 3"
+comerciales,3,"2, 3, 7"
+instrumental,2,"2, 3"
+pesada,4,"2, 7, 8, 9"
+vendedor,5,"2, 3, 5, 8, 9"
+transferencista,1,2
+visitador,3,"2, 3, 5"
+proveedores,1,2
+empresariales,1,2
+power,1,2
+especificador,1,2
+soluciones,2,"2, 3"
+business,2,"2, 3"
+analyst,1,2
+requerimientos,1,2
+tecnologico,1,2
+programador,4,"2, 3, 4, 8"
+senior,1,2
+creador,1,2
+informaticas,3,"2, 3, 7"
+computacionales,1,2
+funcional,1,2
+computable,1,2
+sitios,1,2
+back,2,"2, 3"
+dhtml,1,2
+dynamic,1,2
+html,1,2
+juego,4,"2, 3, 4, 5"
+ordenador,4,"2, 3, 6, 9"
+adobe,1,2
+flash,1,2
+videojuego,1,2
+full,1,2
+stack,1,2
+stock,1,2
+animaciones,1,2
+operativos,1,2
+pruebas,5,"2, 3, 4, 5, 7"
+prueba,3,"2, 3, 8"
+tester,1,2
+despliegue,1,2
+lanzamiento,1,2
+testing,3,"2, 3, 8"
+probador,4,"2, 3, 7, 8"
+center,3,"2, 3, 4"
+bases,1,2
+extendida,1,2
+nube,1,2
+unix,1,2
+plataforma,1,2
+servidor,1,2
+transmisiones,3,"2, 7, 8"
+abogado,2,"2, 3"
+acusador,1,2
+civilista,1,2
+laboralista,1,2
+legal,2,"2, 3"
+litigante,1,2
+penal,1,2
+criminologia,1,2
+penalista,1,2
+jurisconsulto,1,2
+jurista,1,2
+licenciado,1,2
+socio,1,2
+justicia,1,2
+juez,2,"2, 3"
+suprema,1,2
+jurisdiccion,1,2
+ordinaria,1,2
+menores,3,"2, 3, 6"
+tribunal,2,"2, 3"
+magistrado,1,2
+supremo,1,2
+escribano,2,"2, 4"
+forenses,2,"2, 3"
+criminalistica,2,"2, 3"
+apelaciones,1,2
+reclamaciones,2,"2, 3"
+comisario,3,"2, 3, 5"
+instruccion,1,2
+notario,1,2
+expedientes,1,2
+registros,2,"2, 3"
+archivero,1,2
+documentos,4,"2, 3, 4, 9"
+historicos,1,2
+archivista,1,2
+historico,2,"2, 5"
+curador,3,"2, 3, 7"
+acuarios,1,2
+astronomia,2,"2, 3"
+entomologia,2,"2, 3"
+etnografia,1,2
+geografia,1,2
+historia,1,2
+botanicos,1,2
+zoologicos,2,"2, 5"
+bibliotecarios,2,"2, 4"
+repertorio,1,2
+selector,2,"2, 9"
+catalogador,1,2
+museografo,1,2
+museologo,1,2
+museos,2,"2, 3"
+colecciones,1,2
+conservador,1,2
+bibliografico,1,2
+colorista,4,"2, 3, 5, 7"
+artisticas,2,"2, 7"
+bibliotecas,2,"2, 3"
+muebles,5,"2, 3, 7, 8, 9"
+arquitectonico,2,"2, 3"
+reforzamiento,1,2
+patrimoniales,1,2
+bibliografo,1,2
+cataloguista,1,2
+clasificador,6,"2, 4, 6, 7, 8, 9"
+codicologo,1,2
+catalogacion,1,2
+fonotecario,1,2
+documentalista,1,2
+preservacion,1,2
+bibliotecologia,1,2
+bibliotecarias,1,2
+tecnicos,2,"2, 3"
+bibliotecaria,1,2
+turistica,2,"2, 4"
+econometrista,1,2
+economista,1,2
+econometria,1,2
+precios,2,"2, 3"
+macroeconomista,1,2
+antropologo,1,2
+arqueologo,1,2
+criminalista,1,2
+criminologo,1,2
+etnografo,1,2
+etnologo,1,2
+paleografo,1,2
+sigilografo,1,2
+sociologo,1,2
+esteta,1,2
+filosofo,1,2
+futurologo,1,2
+genealogista,1,2
+historiador,1,2
+politologo,1,2
+neuropsicologo,1,2
+psicoanalista,1,2
+psicologo,1,2
+experimentos,1,2
+psicometrista,1,2
+psicoterapeuta,1,2
+psicologico,1,2
+libertad,1,2
+condicional,1,2
+indigenas,1,2
+duelo,1,2
+victimas,1,2
+agresion,1,2
+adicciones,1,2
+asalto,1,2
+adiccion,1,2
+matrimonial,1,2
+probatoria,1,2
+probatorio,1,2
+organizador,3,"2, 3, 5"
+mujeres,2,"2, 3"
+asistencia,5,"2, 3, 4, 7, 9"
+mujer,1,2
+vigilada,1,2
+psicoeducador,1,2
+sexo,1,2
+matrimonio,1,2
+psicosocial,1,2
+trabajador,7,"2, 3, 5, 6, 7, 8, 9"
+delincuencia,2,"2, 3"
+psiquiatrico,1,2
+trabajadora,1,2
+internado,1,2
+tutora,1,2
+fundraising,1,2
+alianzas,1,2
+estrategicas,1,2
+fundraiser,1,2
+donaciones,2,"2, 5"
+recaudador,4,"2, 3, 4, 5"
+caridad,2,"2, 4"
+abad,1,2
+abadesa,1,2
+arcediano,1,2
+arcipreste,1,2
+arzobispo,1,2
+bonzo,1,2
+sacerdote,1,2
+budista,1,2
+canonico,1,2
+capellan,1,2
+cardenal,1,2
+coadjutor,1,2
+cura,1,2
+diacono,1,2
+hafiz,1,2
+imam,1,2
+guia,4,"2, 3, 5, 9"
+espiritual,1,2
+islamico,1,2
+iman,1,2
+khatib,1,2
+islam,1,2
+madre,2,"2, 5"
+superiora,1,2
+maulana,1,2
+musulman,1,2
+confesion,1,2
+religiosa,1,2
+culto,2,"2, 3"
+misionero,1,2
+monsenor,1,2
+mufti,1,2
+mullah,1,2
+obispo,1,2
+parroco,1,2
+pastor,2,"2, 6"
+evangelizante,1,2
+protestante,1,2
+presbitero,1,2
+prior,1,2
+pujari,1,2
+hindu,1,2
+qari,1,2
+rabino,1,2
+talapoin,1,2
+monje,2,"2, 3"
+birmano,1,2
+teologo,1,2
+vicario,1,2
+argumentista,1,2
+dialogos,1,2
+acentos,1,2
+guion,2,"2, 3"
+teatral,2,"2, 3"
+biografo,1,2
+cabeza,1,2
+escritores,1,2
+manuales,3,"2, 7, 9"
+copy,1,2
+editor,2,"2, 3"
+copia,1,2
+dialoguista,1,2
+dramaturgo,1,2
+escritura,2,"2, 3"
+continuidad,2,"2, 3"
+correccion,1,2
+textos,3,"2, 3, 4"
+dialogo,1,2
+literario,2,"2, 3"
+ensayista,1,2
+cancion,1,2
+cuento,1,2
+discursos,1,2
+ficcion,1,2
+libretos,1,2
+novelas,1,2
+lirico,1,2
+estilista,2,"2, 5"
+guionista,1,2
+transmedia,1,2
+indexador,1,2
+indizador,1,2
+libretistas,1,2
+libretista,1,2
+literato,1,2
+novelista,1,2
+poeta,1,2
+scrip,1,2
+doctors,1,2
+world,1,2
+builder,1,2
+adaptador,1,2
+podcast,1,2
+alimentador,4,"2, 7, 8, 9"
+plataformas,1,2
+noticias,2,"2, 3"
+booktuber,1,2
+columnista,1,2
+comentarista,1,2
+actualidad,1,2
+improvisado,1,2
+corresponsal,2,"2, 4"
+cronista,1,2
+periodista,1,2
+crimenes,1,2
+expandido,1,2
+multiplataforma,2,"2, 3"
+presentador,1,2
+reportero,2,"2, 3"
+noticiero,1,2
+periodistico,1,2
+storyhunter,1,2
+blogger,1,2
+corrector,3,"2, 3, 4"
+estilo,1,2
+cronicas,1,2
+periodicos,3,"2, 5, 9"
+periodicas,1,2
+revistas,2,"2, 5"
+extranjero,1,2
+editorialista,1,2
+blogs,1,2
+periodico,2,"2, 9"
+redaccion,1,2
+lector,2,"2, 9"
+citadino,1,2
+informativos,1,2
+subeditor,1,2
+scout,1,2
+diccionario,1,2
+etimologista,1,2
+filologo,1,2
+fonetica,1,2
+grafologia,1,2
+morfologia,1,2
+fonologo,1,2
+grafologo,1,2
+interprete,2,"2, 5"
+lexicografo,1,2
+linguista,1,2
+morfologista,1,2
+semasiologo,1,2
+subtitulador,1,2
+terminologista,1,2
+traductor,1,2
+simultaneo,1,2
+romani,1,2
+criollas,1,2
+palenque,1,2
+raizal,1,2
+colombianas,1,2
+sordociegos,1,2
+sordo,1,2
+acuarelista,1,2
+pintor,4,"2, 3, 7, 8"
+escultor,4,"2, 3, 5, 7"
+modelador,3,"2, 3, 7"
+grabador,4,"2, 3, 7, 8"
+aguafuerte,2,"2, 7"
+muralista,1,2
+miniaturas,1,2
+retratista,2,"2, 3"
+caricaturista,1,2
+comico,1,2
+historietista,1,2
+historietas,1,2
+grafitero,1,2
+humorista,1,2
+acordeonista,1,2
+arpista,1,2
+bajista,1,2
+baritono,1,2
+buffo,1,2
+bajonista,1,2
+baritenor,1,2
+baterista,1,2
+campanero,1,2
+cantante,1,2
+contralto,1,2
+coral,1,2
+cabaret,1,2
+concierto,1,2
+discoteca,2,"2, 5"
+jingles,1,2
+popular,1,2
+opera,2,"2, 3"
+clasica,1,2
+organista,1,2
+vocalista,1,2
+clarinetista,1,2
+concertista,1,2
+instrumentista,3,"2, 3, 7"
+contratenor,1,2
+cornetista,1,2
+jockey,2,"2, 3"
+fagotista,1,2
+flautista,1,2
+gaitero,1,2
+guitarrista,1,2
+musico,2,"2, 3"
+instrumento,1,2
+teclado,1,2
+mezzosoprano,1,2
+nocturno,4,"2, 4, 5, 9"
+sesion,1,2
+sinfonico,1,2
+oboista,1,2
+percusionista,1,2
+pianista,1,2
+proponente,1,2
+saxofonista,1,2
+solista,1,2
+soprano,1,2
+tenor,1,2
+timbalero,1,2
+trombonista,1,2
+trompetista,1,2
+violinista,1,2
+violonchelista,1,2
+agrupacion,1,2
+banda,2,"2, 8"
+grupo,3,"2, 3, 7"
+etnomusicologo,1,2
+folclorista,1,2
+capilla,1,2
+musicologo,1,2
+discografico,1,2
+arreglista,1,2
+letrista,1,2
+compositor,2,"2, 7"
+musicalizador,1,2
+orquestador,1,2
+beat,1,2
+maker,1,2
+cantador,1,2
+ambulante,4,"2, 5, 7, 9"
+callejero,3,"2, 5, 9"
+cantos,2,"2, 8"
+vaqueria,1,2
+cantaora,1,2
+cantautor,1,2
+copista,1,2
+coplero,1,2
+corista,1,2
+decimero,1,2
+ejecutante,1,2
+improvisador,1,2
+jinglero,1,2
+formato,2,"2, 7"
+repentista,1,2
+transcriptor,3,"2, 3, 4"
+trovador,1,2
+bailarin,1,2
+coreografo,1,2
+coreografia,1,2
+clasico,1,2
+danzas,1,2
+clasicas,1,2
+striptease,1,2
+coreografico,1,2
+bailes,1,2
+populares,1,2
+salon,4,"2, 3, 5, 9"
+coro,1,2
+contemporanea,1,2
+mundo,1,2
+folcloricas,1,2
+entretenimiento,2,"2, 5"
+ritmos,1,2
+folcloricos,1,2
+exotico,1,2
+folclorico,1,2
+street,1,2
+dancer,1,2
+folclor,1,2
+proyeccion,2,"2, 3"
+cinematografo,1,2
+coproductor,1,2
+muestra,1,2
+cinematografico,2,"2, 3"
+camaras,3,"2, 3, 7"
+casting,2,"2, 3"
+doblaje,3,"2, 3, 8"
+elenco,2,"2, 3"
+emisora,2,"2, 3"
+escena,2,"2, 3"
+escenario,3,"2, 3, 7"
+flujos,1,2
+fotografia,4,"2, 3, 5, 8"
+posproduccion,1,2
+hablada,2,"2, 3"
+ambientes,1,2
+foley,2,"2, 3"
+pelicula,2,"2, 8"
+line,5,"2, 3, 7, 8, 9"
+online,2,"2, 5"
+productores,1,2
+delegados,1,2
+linea,5,"2, 3, 4, 7, 8"
+documentales,1,2
+entregables,1,2
+postproduccion,2,"2, 3"
+series,1,2
+telenovelas,1,2
+showrunner,1,2
+locaciones,1,2
+clearence,1,2
+vehiculos,7,"2, 3, 4, 5, 7, 8, 9"
+logistico,3,"2, 3, 5"
+locacionista,1,2
+scouter,1,2
+conceptual,1,2
+cinematografia,2,"2, 3"
+dobles,2,"2, 3"
+extras,2,"2, 3"
+permisos,2,"2, 3"
+piso,4,"2, 4, 5, 9"
+backoffice,1,2
+stunts,2,"2, 3"
+territorial,1,2
+pufa,1,2
+permiso,2,"2, 3"
+unificado,2,"2, 3"
+filmaciones,1,2
+soportes,1,2
+grip,2,"2, 3"
+directo,1,2
+realizador,2,"2, 3"
+autopromos,1,2
+making,2,"2, 3"
+supervision,1,2
+videografo,1,2
+actor,1,2
+activacion,1,2
+doblajes,2,"2, 3"
+fondo,1,2
+inanimados,1,2
+pantomima,1,2
+performance,1,2
+radionovelas,1,2
+calle,2,"2, 9"
+convencionales,1,2
+titeres,1,2
+marionetas,1,2
+gestual,1,2
+mimoclown,1,2
+actriz,1,2
+caracterizacion,1,2
+voces,1,2
+historias,2,"2, 4"
+cuentacuentos,1,2
+cuentero,1,2
+cuentista,1,2
+daredevil,1,2
+declamador,1,2
+doble,3,"2, 3, 8"
+mimo,1,2
+narrador,1,2
+voice,1,2
+over,1,2
+anfitrion,2,"2, 5"
+entrevistas,1,2
+anunciador,1,2
+locutor,1,2
+conductor,4,"2, 3, 8, 9"
+ceremonias,1,2
+radiodifusor,1,2
+acrobata,1,2
+aros,1,2
+chinos,1,2
+barra,2,"2, 5"
+rusa,1,2
+cama,2,"2, 5"
+elastica,1,2
+bascula,2,"2, 4"
+columpio,1,2
+ikaros,1,2
+mano,4,"2, 3, 7, 9"
+mastil,1,2
+portor,1,2
+koreano,1,2
+aerealista,1,2
+amaestrador,1,2
+fieras,1,2
+antipodista,1,2
+capilar,1,2
+burbujas,1,2
+circo,2,"2, 3"
+alturas,1,2
+globo,1,2
+muerte,1,2
+hula,1,2
+hoop,1,2
+floja,1,2
+latigo,1,2
+pendulo,1,2
+variedades,1,2
+circenses,1,2
+extreme,1,2
+rueda,1,2
+bastonera,1,2
+comediante,1,2
+conjurador,1,2
+contorsionista,1,2
+equilibrista,1,2
+alambre,3,"2, 7, 8"
+bicicleta,2,"2, 9"
+blondin,1,2
+bola,1,2
+escalera,1,2
+monociclo,1,2
+rulo,1,2
+bastones,1,2
+percha,1,2
+sillas,2,"2, 8"
+zancos,1,2
+rebote,1,2
+escapista,1,2
+faquir,1,2
+globoflexor,1,2
+hipnotizador,1,2
+hombre,2,"2, 7"
+bala,1,2
+ilusionista,1,2
+imitador,1,2
+lanza,1,2
+traga,1,2
+fuego,2,"2, 7"
+lanzador,1,2
+cuchillos,3,"2, 7, 8"
+mago,1,2
+malabarista,1,2
+manipulador,4,"2, 7, 8, 9"
+baston,1,2
+bolas,2,"2, 8"
+cigar,1,2
+boxes,1,2
+clavas,1,2
+contac,1,2
+cubo,1,2
+devil,1,2
+stick,1,2
+diabolos,1,2
+isolation,1,2
+jarrones,1,2
+panuelos,1,2
+sombreros,3,"2, 7, 8"
+swing,1,2
+marionetista,1,2
+payaso,1,2
+prestidigitador,1,2
+saltimbanqui,1,2
+titiritero,1,2
+tragasable,1,2
+trapecista,1,2
+ventrilocuo,1,2
+materias,1,3
+primas,1,3
+quimicas,1,3
+pesaje,3,"3, 4, 7"
+oceanografia,1,3
+meteorologico,1,3
+puerto,2,"3, 5"
+meteorologia,2,"3, 7"
+meteorologica,1,3
+climatologico,1,3
+metrologia,1,3
+metrologo,1,3
+ensayo,1,3
+metrologico,1,3
+calibraciones,1,3
+mediciones,1,3
+aparejador,2,"3, 7"
+actas,1,3
+parametros,1,3
+incendios,3,"3, 5, 7"
+estimador,1,3
+calculo,2,"3, 4"
+geotecnica,1,3
+hidraulicas,3,"3, 7, 8"
+construido,1,3
+hidrografico,1,3
+capataz,1,3
+topotrocha,1,3
+fotogeometria,1,3
+sismica,2,"3, 9"
+superficies,2,"3, 7"
+electrotecnico,1,3
+alta,4,"3, 6, 7, 9"
+tension,2,"3, 7"
+electric,2,"3, 7"
+electrotecnia,1,3
+pleno,2,"3, 7"
+regulador,2,"3, 7"
+casablanca,1,3
+microinformaticos,1,3
+montaje,3,"3, 7, 8"
+biomedica,1,3
+biomedicos,1,3
+maritima,2,"3, 4"
+modelista,2,"3, 7"
+patio,4,"3, 7, 8, 9"
+automotores,4,"3, 7, 8, 9"
+tasador,1,3
+barcos,3,"3, 7, 9"
+hidraulicos,2,"3, 7"
+precision,3,"3, 7, 8"
+refinacion,2,"3, 8"
+tinturado,3,"3, 8, 9"
+acidificador,1,3
+cementador,3,"3, 7, 8"
+desincrustador,1,3
+muestreador,2,"3, 7"
+carbon,4,"3, 6, 7, 8"
+fundido,1,3
+subterraneo,1,3
+estimulacion,2,"3, 9"
+fractura,2,"3, 9"
+flush,3,"3, 4, 9"
+field,3,"3, 4, 9"
+services,3,"3, 4, 9"
+dureza,1,3
+taladro,2,"3, 8"
+sismico,1,3
+acidificacion,1,3
+sondeo,3,"3, 5, 8"
+fluidos,1,3
+extractiva,1,3
+mineralogia,1,3
+petrologia,1,3
+tirador,2,"3, 7"
+tomador,2,"3, 8"
+tratador,1,3
+harvesting,1,3
+colector,1,3
+hidrocarburos,5,"3, 4, 7, 8, 9"
+transcribista,2,"3, 7"
+artefinalista,1,3
+delineante,1,3
+ilustraciones,1,3
+plantilla,2,"3, 4"
+herramienta,1,3
+litografico,2,"3, 7"
+diagramador,1,3
+finalista,1,3
+graficas,2,"3, 7"
+autocad,1,3
+finalizador,2,"3, 7"
+imagenes,1,3
+montajista,2,"3, 7"
+rotulista,2,"3, 7"
+litografia,2,"3, 7"
+serigrafista,2,"3, 7"
+terminados,2,"3, 7"
+acabados,3,"3, 7, 8"
+graficador,1,3
+computarizadas,1,3
+renderizador,1,3
+retocador,2,"3, 7"
+curtiembre,1,3
+curtimbres,1,3
+accidentes,1,3
+destructivas,1,3
+radiografo,1,3
+vibracion,1,3
+cantidades,1,3
+cuantificacion,1,3
+ultrasonica,1,3
+reparacables,2,"3, 7"
+verificador,1,3
+ultrasonido,1,3
+subterranea,4,"3, 7, 8, 9"
+planeamiento,1,3
+turno,1,3
+clasificacion,5,"3, 4, 7, 8, 9"
+cargue,3,"3, 8, 9"
+coquizacion,1,3
+responsable,2,"3, 4"
+acopio,2,"3, 9"
+despacho,2,"3, 4"
+molinos,1,3
+mineros,1,3
+patios,1,3
+lavadora,2,"3, 8"
+voladura,2,"3, 7"
+suplente,1,3
+cuadrilla,1,3
+coiled,3,"3, 8, 9"
+tubing,3,"3, 8, 9"
+fraccionamiento,2,"3, 8"
+taller,5,"3, 4, 7, 8, 9"
+bombas,3,"3, 7, 8"
+tuberia,3,"3, 7, 9"
+pailero,2,"3, 7"
+licuado,1,3
+roceria,1,3
+oleoductos,1,3
+well,2,"3, 8"
+empacadores,1,3
+leche,3,"3, 6, 8"
+barcadilla,1,3
+empaque,3,"3, 8, 9"
+procesados,1,3
+congelacion,1,3
+carnes,4,"3, 5, 7, 8"
+frio,4,"3, 5, 7, 8"
+empacadora,2,"3, 8"
+granos,3,"3, 7, 8"
+especias,3,"3, 6, 8"
+operarios,1,3
+carne,3,"3, 7, 8"
+panificacion,1,3
+lacteos,4,"3, 7, 8, 9"
+envasado,2,"3, 8"
+envase,1,3
+hortalizas,2,"3, 6"
+mariscos,5,"3, 6, 7, 8, 9"
+reposteria,2,"3, 8"
+ensamble,3,"3, 7, 8"
+extrusion,3,"3, 7, 8"
+moldeo,3,"3, 7, 8"
+inyeccion,3,"3, 7, 8"
+soplado,3,"3, 7, 8"
+calandrado,1,3
+mezclas,1,3
+recuperados,1,3
+supervisores,1,3
+carton,4,"3, 7, 8, 9"
+chasis,1,3
+operativo,2,"3, 5"
+acabado,4,"3, 7, 8, 9"
+encuadernacion,2,"3, 7"
+preimpresion,2,"3, 7"
+especificaciones,1,3
+vidrio,4,"3, 7, 8, 9"
+muelle,4,"3, 4, 8, 9"
+dique,1,3
+seco,3,"3, 8, 9"
+metalicos,3,"3, 7, 8"
+ajustadores,1,3
+altos,1,3
+hornos,2,"3, 7"
+caldereros,1,3
+liviana,1,3
+galvanizado,1,3
+herreros,1,3
+forjadores,1,3
+instaladores,1,3
+metalicas,3,"3, 7, 8"
+laminacion,2,"3, 8"
+automotor,3,"3, 7, 9"
+electricistas,1,3
+mecanizado,2,"3, 7"
+modelistas,1,3
+matriceros,1,3
+arcilla,3,"3, 7, 8"
+operadores,1,3
+forja,4,"3, 7, 8, 9"
+ornamentistas,1,3
+concreto,4,"3, 7, 8, 9"
+soldadores,1,3
+trabajadores,1,3
+lamina,2,"3, 7"
+troquelistas,1,3
+calcinacion,3,"3, 8, 9"
+acabador,3,"3, 7, 8"
+vestir,5,"3, 5, 7, 8, 9"
+tela,3,"3, 7, 8"
+piel,2,"3, 7"
+hilatura,3,"3, 7, 8"
+coser,3,"3, 7, 8"
+tejeduria,2,"3, 7"
+tejido,4,"3, 7, 8, 9"
+urdimbre,3,"3, 7, 8"
+urdiembre,2,"3, 8"
+aparatos,4,"3, 7, 8, 9"
+controles,1,3
+electrodomesticos,4,"3, 5, 7, 8"
+tablero,1,3
+circuito,1,3
+impreso,1,3
+residenciales,2,"3, 7"
+transformadores,3,"3, 7, 8"
+reparacion,2,"3, 7"
+purificadora,1,3
+botes,2,"3, 8"
+juguetes,3,"3, 7, 8"
+medidor,1,3
+ebanistas,1,3
+ensamblaje,2,"3, 7"
+bicicletas,3,"3, 7, 8"
+casas,2,"3, 7"
+prefabricadas,2,"3, 7"
+implementos,3,"3, 7, 8"
+relacionado,2,"3, 8"
+afines,1,3
+relojes,3,"3, 7, 8"
+discos,2,"3, 8"
+plateria,2,"3, 7"
+fotograbado,2,"3, 7"
+laminado,2,"3, 8"
+automatizada,1,3
+tabaco,4,"3, 6, 7, 8"
+demolicion,3,"3, 7, 9"
+emplazamiento,1,3
+tuberias,2,"3, 7"
+interventoria,1,3
+tapiero,2,"3, 7"
+preparacion,4,"3, 5, 7, 8"
+aspersion,2,"3, 7"
+vapor,4,"3, 5, 7, 8"
+pavimentacion,1,3
+plomeros,1,3
+edificacion,2,"3, 7"
+plomeria,2,"3, 9"
+cilindros,3,"3, 7, 8"
+localizador,2,"3, 7"
+escapes,2,"3, 7"
+inspecciones,1,3
+despachador,2,"3, 4"
+generadora,1,3
+panel,2,"3, 8"
+reactor,1,3
+mareomotriz,1,3
+eolica,1,3
+geotermica,1,3
+solar,1,3
+rectificador,2,"3, 7"
+corriente,2,"3, 7"
+subestacion,2,"3, 7"
+patiero,2,"3, 9"
+bocatoma,1,3
+embalse,1,3
+bombeo,5,"3, 6, 7, 8, 9"
+alcantarillado,3,"3, 7, 8"
+filtro,2,"3, 8"
+servidas,1,3
+represa,1,3
+tanque,1,3
+decantacion,1,3
+tanques,3,"3, 8, 9"
+sedimentacion,1,3
+liquidos,2,"3, 9"
+ptap,1,3
+potable,2,"3, 8"
+ptar,1,3
+operario,5,"3, 6, 7, 8, 9"
+lodos,1,3
+particulado,1,3
+desencarpe,1,3
+disposicion,1,3
+evacuacion,1,3
+lixiviados,1,3
+horno,4,"3, 7, 8, 9"
+crematorio,1,3
+eliminacion,1,3
+incinerador,1,3
+vaso,1,3
+incineracion,1,3
+paisajismo,1,3
+relleno,1,3
+cremacion,1,3
+termofusion,1,3
+impermeabilizacion,1,3
+compresorista,1,3
+destilador,4,"3, 6, 7, 8"
+alambique,3,"3, 8, 9"
+autoclave,2,"3, 8"
+compresor,1,3
+congelador,1,3
+destilacion,2,"3, 8"
+sustancias,1,3
+filtrado,2,"3, 5"
+separacion,3,"3, 7, 8"
+relacionados,1,3
+hielo,2,"3, 8"
+sinteticas,3,"3, 7, 8"
+termico,2,"3, 8"
+separadora,1,3
+centrifuga,2,"3, 8"
+separador,2,"3, 8"
+destileria,1,3
+desulfurizadora,1,3
+crudo,3,"3, 7, 8"
+evaporador,2,"3, 7"
+parafina,1,3
+desulfuramiento,1,3
+regulacion,2,"3, 7"
+presion,4,"3, 7, 8, 9"
+licuefaccion,2,"3, 8"
+regasificacion,1,3
+propano,1,3
+hulla,2,"3, 8"
+gasoductos,2,"3, 4"
+combustible,4,"3, 5, 7, 9"
+moldeador,3,"3, 7, 8"
+tren,5,"3, 5, 7, 8, 9"
+convertidor,1,3
+acero,3,"3, 7, 8"
+martin,1,3
+siemens,1,3
+procedimiento,1,3
+bessemer,1,3
+oxigeno,2,"3, 8"
+ferrosos,2,"3, 8"
+cubas,1,3
+aluminio,4,"3, 7, 8, 9"
+caliza,1,3
+conversion,1,3
+crisol,1,3
+cubilote,1,3
+fusion,2,"3, 8"
+arco,2,"3, 7"
+moldeadora,2,"3, 8"
+olla,1,3
+colada,3,"3, 7, 8"
+robot,1,3
+despulpado,1,3
+automatizado,2,"3, 7"
+radiactivos,1,3
+pasta,2,"3, 8"
+celulosa,1,3
+placa,1,3
+numerico,2,"3, 7"
+anatomia,1,3
+biofisica,1,3
+tisular,1,3
+fisiologia,1,3
+herbologia,1,3
+ictiologia,1,3
+serologia,1,3
+silvestre,2,"3, 5"
+herbario,1,3
+demostrador,2,"3, 5"
+sostenible,1,3
+levante,1,3
+engorde,1,3
+reproduccion,2,"3, 4"
+camarones,4,"3, 6, 7, 8"
+azucarero,1,3
+aves,5,"3, 5, 6, 7, 8"
+corral,2,"3, 6"
+avicultura,2,"3, 6"
+extensivos,3,"3, 6, 9"
+larvicultura,1,3
+olericultura,1,3
+pomologia,1,3
+especies,3,"3, 6, 9"
+maduracion,1,3
+agropecuarios,2,"3, 7"
+fitosanitario,2,"3, 6"
+rebano,2,"3, 6"
+ganado,2,"3, 6"
+cereales,3,"3, 6, 8"
+vegetales,4,"3, 7, 8, 9"
+pecuarios,1,3
+drenaje,4,"3, 6, 7, 9"
+siembra,2,"3, 6"
+cana,4,"3, 6, 7, 9"
+labores,4,"3, 6, 8, 9"
+recoleccion,2,"3, 9"
+fumigacion,2,"3, 7"
+jardineria,3,"3, 6, 9"
+rspo,1,3
+roundtable,1,3
+sustainable,1,3
+palm,1,3
+bouquetera,1,3
+fertilizacion,1,3
+madres,2,"3, 6"
+propagacion,2,"3, 6"
+azucar,5,"3, 6, 7, 8, 9"
+flores,3,"3, 6, 7"
+prados,2,"3, 6"
+polinizacion,1,3
+viverismo,1,3
+mirfe,1,3
+cria,2,"3, 6"
+ganadera,2,"3, 9"
+pollo,1,3
+inseminacion,1,3
+artificial,3,"3, 6, 8"
+cafetero,1,3
+arboricultura,1,3
+maderera,2,"3, 6"
+aserradero,3,"3, 8, 9"
+navegacion,1,3
+buque,3,"3, 6, 8"
+toolpusher,1,3
+barco,5,"3, 5, 6, 8, 9"
+maquinista,3,"3, 7, 8"
+altura,2,"3, 7"
+fluvial,3,"3, 5, 8"
+pasajeros,5,"3, 4, 5, 8, 9"
+draga,3,"3, 7, 8"
+mercante,1,3
+navegables,1,3
+yate,1,3
+cubierta,3,"3, 7, 8"
+naviero,1,3
+guardia,2,"3, 5"
+puente,3,"3, 4, 8"
+patron,3,"3, 6, 8"
+piloto,1,3
+aerodeslizador,1,3
+bordo,3,"3, 6, 7"
+tercer,1,3
+astronauta,1,3
+copiloto,1,3
+aeronave,2,"3, 4"
+fumigador,2,"3, 7"
+navegante,1,3
+tripulacion,2,"3, 4"
+avion,4,"3, 5, 7, 8"
+helicoptero,1,3
+hidroavion,1,3
+pulverizador,2,"3, 8"
+senales,3,"3, 7, 8"
+parqueo,1,3
+sonar,1,3
+parqueador,1,3
+torre,3,"3, 7, 8"
+condiciones,1,3
+aeronavegacion,2,"3, 7"
+prevuelo,1,3
+rayos,1,3
+escaner,1,3
+radiografia,1,3
+scanner,1,3
+diagnosticas,1,3
+densitometria,1,3
+escaneo,1,3
+escanografia,1,3
+resonancia,1,3
+magnetica,1,3
+mamografia,1,3
+cerebral,1,3
+neurodiagnostico,1,3
+tomografia,1,3
+asistida,2,"3, 7"
+computarizada,1,3
+radioterapia,1,3
+fuentes,1,3
+abiertas,1,3
+terapeutico,1,3
+gammagrafia,1,3
+audiometrico,1,3
+sonografo,1,3
+polisomnografia,1,3
+ecografista,1,3
+audiometria,1,3
+electroencefalografia,1,3
+electrocardiografia,1,3
+electroencefalografico,1,3
+electrocardiografico,1,3
+perfusionista,1,3
+cardiovascular,1,3
+ecografia,1,3
+audiometricos,1,3
+citohistotecnologo,1,3
+citotecnologo,1,3
+autopsias,1,3
+sangre,1,3
+citologia,1,3
+histologia,1,3
+inmunologia,1,3
+regente,1,3
+dentadurista,1,3
+dentaduras,1,3
+protesis,2,"3, 8"
+ortesista,1,3
+protesico,2,"3, 5"
+protesista,1,3
+dentales,1,3
+ajustador,2,"3, 7"
+ortopedicos,1,3
+corse,1,3
+ortoprotesista,1,3
+ortesis,1,3
+audicion,1,3
+cognicion,1,3
+limitacion,1,3
+limitaciones,1,3
+movilidad,2,"3, 5"
+definiciencias,1,3
+inscrita,1,3
+aprendiz,2,"3, 5"
+principiante,1,3
+sabedora,2,"3, 5"
+acomodador,2,"3, 9"
+huesos,1,3
+naturista,1,3
+reflexologo,1,3
+ventosas,1,3
+raspado,1,3
+ancestral,1,3
+chaman,1,3
+curandero,1,3
+herborista,1,3
+sanador,1,3
+drogas,1,3
+inseminador,1,3
+vacunador,1,3
+profilaxis,1,3
+codificacion,2,"3, 4"
+codificador,2,"3, 4"
+sanitaria,1,3
+afinador,2,"3, 7"
+lentes,2,"3, 7"
+contacto,4,"3, 4, 5, 7"
+ocularista,1,3
+anteojos,2,"3, 8"
+hidroterapia,1,3
+relacionada,1,3
+electroterapeuta,1,3
+hidroterapeuta,1,3
+ergoterapia,1,3
+terapeutica,1,3
+dislalias,1,3
+atletico,1,3
+acupresion,1,3
+masaje,1,3
+digitopuntura,1,3
+masajeador,1,3
+shiatsu,1,3
+oftalmico,1,3
+transfusion,1,3
+consumidores,1,3
+alimentaria,1,3
+fabricas,1,3
+tiendas,3,"3, 5, 8"
+establecimientos,3,"3, 5, 9"
+coordinacion,1,3
+normas,1,3
+integrados,1,3
+sanitarista,1,3
+monitoreo,1,3
+ambulancia,2,"3, 8"
+paramedicas,1,3
+ayudante,6,"3, 4, 5, 7, 8, 9"
+ambulancias,2,"3, 4"
+empleado,4,"3, 4, 5, 9"
+socorrista,1,3
+ortofonia,1,3
+respiratoria,1,3
+tricologo,1,3
+bolsa,1,3
+cambios,2,"3, 8"
+divisas,2,"3, 4"
+fiducia,1,3
+hipoteca,2,"3, 4"
+acciones,2,"3, 4"
+derivados,2,"3, 8"
+corredor,2,"3, 4"
+obligaciones,1,3
+compartido,1,3
+intermediario,1,3
+prestamos,1,3
+creditos,1,3
+cobro,3,"3, 4, 5"
+cobranzas,2,"3, 4"
+normalizacion,1,3
+bancarios,1,3
+solvencia,1,3
+asegurador,1,3
+hipotecas,1,3
+hipotecarios,1,3
+aprobar,1,3
+evaluar,1,3
+tramitar,1,3
+acuerdos,1,3
+procesador,4,"3, 4, 7, 8"
+aprobacion,1,3
+pagar,2,"3, 4"
+revisoria,1,3
+desembolsos,1,3
+ahorros,2,"3, 4"
+tenedor,1,3
+indemnizaciones,2,"3, 4"
+siniestros,1,3
+suscripcion,1,3
+perdida,2,"3, 5"
+reclamos,2,"3, 4"
+martillero,1,3
+subastas,1,3
+rematador,2,"3, 7"
+subasta,1,3
+seguro,1,3
+avaluos,2,"3, 4"
+valuador,1,3
+colectivos,1,3
+reaseguros,1,3
+negociador,1,3
+suscriptor,1,3
+postventa,1,3
+externo,4,"3, 4, 5, 9"
+viajero,2,"3, 4"
+comprador,1,3
+materia,1,3
+prima,1,3
+mercancia,3,"3, 4, 8"
+cotizador,1,3
+compra,1,3
+mercaderia,1,3
+futuro,1,3
+consignatario,1,3
+basicos,1,3
+exportacion,1,3
+importacion,1,3
+liquidacion,2,"3, 4"
+transaccion,1,3
+aduaneros,1,3
+embarque,1,3
+envio,2,"3, 4"
+portuario,4,"3, 5, 8, 9"
+aduanero,1,3
+tramitador,2,"3, 4"
+conferencia,1,3
+stage,1,3
+convencion,1,3
+acomodacion,1,3
+acreditaciones,1,3
+activaciones,1,3
+patrocinios,1,3
+boda,1,3
+camerinos,2,"3, 5"
+cineclub,1,3
+cinema,1,3
+factores,1,3
+organizativos,1,3
+invitados,1,3
+personalidades,1,3
+puesto,3,"3, 5, 8"
+mando,1,3
+prefiltros,1,3
+protocolo,1,3
+espectaculo,1,3
+exposicion,2,"3, 5"
+funciones,1,3
+planeador,2,"3, 4"
+shows,1,3
+artisticos,1,3
+regidor,1,3
+bodas,1,3
+wedding,1,3
+colocacion,1,3
+contratista,1,3
+inmobiliaria,1,3
+booking,1,3
+sellos,2,"3, 8"
+discograficos,1,3
+agregador,1,3
+bookers,1,3
+cineclubista,1,3
+distribuidor,4,"3, 4, 5, 9"
+publisher,1,3
+song,1,3
+plugger,1,3
+tour,1,3
+trade,1,3
+alquiler,2,"3, 5"
+intelectual,1,3
+marcas,1,3
+patente,1,3
+turistico,5,"3, 4, 5, 8, 9"
+subastador,1,3
+empleados,2,"3, 5"
+mecanografos,1,3
+ferry,3,"3, 5, 8"
+pizarra,3,"3, 7, 8"
+hipodromo,1,3
+productivos,1,3
+secretarios,1,3
+presentacion,1,3
+cobrar,2,"3, 4"
+corrientes,2,"3, 4"
+recaudos,2,"3, 4"
+captaciones,1,3
+caja,4,"3, 4, 5, 7"
+cajeros,4,"3, 5, 7, 9"
+automaticos,3,"3, 7, 9"
+call,2,"3, 4"
+llamadas,3,"3, 4, 5"
+contact,2,"3, 4"
+encuestadores,1,3
+help,2,"3, 7"
+desk,2,"3, 7"
+entrada,2,"3, 4"
+conmutador,2,"3, 4"
+inbound,1,3
+outbound,1,3
+carteros,1,3
+encomiendas,1,3
+inventario,2,"3, 4"
+rampa,2,"3, 9"
+despachos,1,3
+abarrotes,3,"3, 5, 9"
+embarcadero,1,3
+programadores,1,3
+rutas,2,"3, 4"
+tripulaciones,2,"3, 4"
+trenes,3,"3, 4, 8"
+ferrocarril,2,"3, 8"
+ferroviario,5,"3, 4, 7, 8, 9"
+rodamiento,1,3
+citador,1,3
+sustanciador,1,3
+juridica,1,3
+estenografo,1,3
+judicial,1,3
+litigios,1,3
+traspaso,1,3
+taquigrafo,2,"3, 4"
+bilingue,1,3
+gerencia,1,3
+prestaciones,2,"3, 4"
+encargado,7,"3, 4, 5, 6, 7, 8, 9"
+pabellon,1,3
+facturacion,2,"3, 4"
+paciente,1,3
+hospitalizacion,1,3
+aforador,1,3
+pasaportes,1,3
+frontera,1,3
+fronteras,1,3
+comprobacion,1,3
+pasaporte,1,3
+aranceles,1,3
+tributaria,1,3
+recaudo,2,"3, 4"
+fisco,1,3
+desempleo,1,3
+tramitacion,1,3
+solicitudes,1,3
+licencias,1,3
+urbanistico,1,3
+expedicion,1,3
+apertura,2,"3, 9"
+licencia,1,3
+detective,1,3
+policial,2,"3, 5"
+criminalistico,1,3
+dactiloscopista,1,3
+criminal,1,3
+consulares,1,3
+extranjeria,1,3
+consular,1,3
+defensa,1,3
+exclusivos,1,3
+listas,1,3
+electorales,1,3
+pesos,1,3
+medidas,2,"3, 7"
+rifas,1,3
+salario,1,3
+mensajero,4,"3, 4, 8, 9"
+observador,1,3
+juzgado,1,3
+notificador,1,3
+tribunales,1,3
+secuestre,1,3
+privada,1,3
+bufete,1,3
+notaria,1,3
+pago,2,"3, 4"
+polizas,1,3
+abogacia,1,3
+dependiente,2,"3, 5"
+tinterillo,1,3
+paso,2,"3, 8"
+pensionados,1,3
+prisiones,2,"3, 5"
+psiquiatricos,1,3
+rehabilitador,1,3
+refugio,1,3
+asistencial,1,3
+intervencion,1,3
+caso,1,3
+crisis,1,3
+juventud,1,3
+familiares,1,3
+acolito,1,3
+catequista,1,3
+evangelizador,1,3
+sugestion,1,3
+religioso,1,3
+fraile,1,3
+hermano,1,3
+monja,1,3
+novicia,1,3
+predicador,1,3
+laico,1,3
+seglar,1,3
+salvacionista,1,3
+seminarista,1,3
+parroquia,1,3
+ajedrecista,1,3
+atleta,1,3
+banderillero,1,3
+basquetbolista,1,3
+beisbolista,1,3
+boxeador,1,3
+ciclista,1,3
+autos,1,3
+ciclismo,1,3
+motos,3,"3, 5, 7"
+deportista,1,3
+esquiador,1,3
+fisicoculturista,1,3
+futbolista,1,3
+golfista,1,3
+jinete,1,3
+caballos,3,"3, 5, 6"
+jugador,1,3
+criquet,1,3
+poker,1,3
+luchador,1,3
+nadador,1,3
+novillero,1,3
+patinador,3,"3, 8, 9"
+picador,5,"3, 6, 7, 8, 9"
+toros,1,3
+carros,4,"3, 5, 8, 9"
+portero,2,"3, 5"
+rejoneador,1,3
+tenista,1,3
+torero,1,3
+voleibolista,1,3
+baloncesto,1,3
+marciales,1,3
+basquetbol,1,3
+beisbol,1,3
+boxeo,1,3
+buceo,1,3
+futbol,1,3
+aficionado,1,3
+clubes,1,3
+liga,1,3
+gimnasia,1,3
+golf,3,"3, 6, 9"
+lucha,1,3
+libre,1,3
+natacion,1,3
+patinaje,1,3
+voleibol,1,3
+ajedrez,1,3
+bridge,1,3
+esqui,1,3
+cronometrador,1,3
+cronometrista,1,3
+meta,1,3
+partida,1,3
+acondicionador,2,"3, 7"
+aerobicos,1,3
+yoga,1,3
+vela,1,3
+tiro,1,3
+recreacionista,1,3
+recreador,1,3
+fotografo,1,3
+foto,1,3
+ilustracion,1,3
+microfotografia,1,3
+fotoperiodista,1,3
+exhibicion,1,3
+mostrador,3,"3, 5, 9"
+filmacion,1,3
+vitrinas,2,"3, 9"
+stands,1,3
+curatorial,1,3
+tallerista,1,3
+taxidermista,1,3
+galerias,1,3
+planetarios,1,3
+referencia,2,"3, 4"
+bibliotecario,1,3
+lectura,2,"3, 4"
+fomento,1,3
+oralidad,1,3
+chef,1,3
+pastelero,2,"3, 7"
+salsero,1,3
+apuntador,1,3
+armero,2,"3, 7"
+extra,1,3
+figurante,1,3
+cineclubes,1,3
+circulacion,1,3
+divulgacion,1,3
+escenicas,1,3
+stunt,1,3
+performer,1,3
+stuntman,1,3
+body,1,3
+paint,1,3
+corporal,2,"3, 5"
+tatuajes,1,3
+tatuador,1,3
+ambientador,1,3
+ambientacion,1,3
+atrilero,1,3
+maquillador,2,"3, 5"
+reflectorista,1,3
+road,1,3
+roadie,1,3
+stagehand,1,3
+texturizador,1,3
+utilero,2,"3, 9"
+continuista,1,3
+ingestador,1,3
+logger,1,3
+script,1,3
+escenografo,1,3
+vestuarista,1,3
+escenotecnico,1,3
+perifericos,1,3
+impresora,2,"3, 7"
+velocidad,1,3
+ayuda,3,"3, 4, 7"
+instalador,5,"3, 6, 7, 8, 9"
+computadoras,1,3
+usuarios,1,3
+corporativo,1,3
+process,1,3
+outsourcing,1,3
+documentador,1,3
+configuraciones,1,3
+webmaster,1,3
+camarografo,1,3
+movil,4,"3, 4, 7, 8"
+terreno,2,"3, 7"
+grua,3,"3, 7, 8"
+dolly,1,3
+inmersiva,1,3
+dron,1,3
+remota,1,3
+subacuatica,1,3
+steady,1,3
+videotape,1,3
+cintas,1,3
+cabina,3,"3, 4, 5"
+emisorista,1,3
+master,1,3
+transmisor,1,3
+remoto,1,3
+tape,1,3
+recorder,1,3
+proyeccionista,1,3
+onda,1,3
+corta,1,3
+caracteres,1,3
+trasmisorista,1,3
+foco,1,3
+colorizador,1,3
+conformador,1,3
+foquista,1,3
+gaffer,1,3
+iluminista,1,3
+luminotecnico,1,3
+consola,2,"3, 5"
+proyector,1,3
+teleprompter,1,3
+sonidista,1,3
+auditorio,1,3
+assist,1,3
+mezclador,3,"3, 7, 8"
+microfonista,1,3
+boom,1,3
+amplificacion,1,3
+megafonia,1,3
+microfono,1,3
+frecuencias,1,3
+rigging,1,3
+pasador,2,"3, 7"
+sonorizacion,1,3
+telefilmes,1,3
+telegrafico,1,3
+global,1,3
+positioning,1,3
+system,1,3
+telegrafica,1,3
+aeroespaciales,2,"3, 8"
+telemedida,1,3
+telegrafista,1,3
+reparadores,1,3
+cable,3,"3, 7, 8"
+codigo,1,3
+morse,1,3
+radionavegante,1,3
+radiotelefonista,1,3
+estaciones,1,3
+terrestres,3,"3, 4, 9"
+radiocomunicaciones,1,3
+fotocopiado,1,4
+radicacion,1,4
+oficinista,1,4
+radicador,1,4
+datain,1,4
+mecanografo,1,4
+recepcionista,1,4
+secretaria,1,4
+estenotipista,1,4
+estadisticas,1,4
+telefax,1,4
+teleimpresora,1,4
+taquimecanografo,1,4
+teletipista,1,4
+digitalizador,1,4
+sumadora,1,4
+calculadora,1,4
+contometro,1,4
+facturadora,1,4
+verificadora,1,4
+tabulador,1,4
+introduccion,1,4
+digitador,1,4
+clinicas,1,4
+ventanilla,1,4
+cajero,2,"4, 5"
+moneda,2,"4, 7"
+principal,2,"4, 5"
+cambista,1,4
+bancario,1,4
+apuestas,2,"4, 5"
+banquero,1,4
+crupier,1,4
+diller,1,4
+escrutador,1,4
+chance,2,"4, 9"
+garitero,1,4
+bingo,2,"4, 9"
+receptor,1,4
+recibidor,1,4
+tallador,2,"4, 7"
+azar,1,4
+empeno,1,4
+prestamista,1,4
+dinero,2,"4, 9"
+prendario,1,4
+cobranza,1,4
+cobrador,3,"4, 5, 9"
+alquileres,1,4
+deudas,1,4
+donativos,1,4
+facturas,1,4
+check,1,4
+pasajes,1,4
+reserva,2,"4, 5"
+pasajero,1,4
+counter,1,4
+tiquetes,2,"4, 5"
+aerolineas,1,4
+aereas,2,"4, 7"
+maritimas,1,4
+viaje,2,"4, 5"
+tiqueteador,1,4
+telefonico,4,"4, 5, 7, 9"
+teleoperador,1,4
+telefonica,2,"4, 7"
+larga,1,4
+distancia,1,4
+respuesta,1,4
+telefonista,1,4
+taxis,1,4
+huesped,1,4
+guest,1,4
+service,1,4
+hoteleras,1,4
+quejas,1,4
+informador,2,"4, 9"
+local,3,"4, 5, 9"
+consultas,1,4
+odontologico,2,"4, 5"
+teleoperadora,1,4
+tele,1,4
+encuestador,1,4
+opinion,1,4
+investigaciones,1,4
+encuesta,1,4
+admision,1,4
+hospitalarias,1,4
+ingresos,1,4
+hospitalarios,1,4
+ingreso,1,4
+elegibilidad,1,4
+teneduria,1,4
+tramite,1,4
+facturador,1,4
+rapido,1,4
+pensionales,1,4
+dividendos,1,4
+garantias,1,4
+giros,1,4
+remesas,1,4
+avaluo,1,4
+almacenador,2,"4, 8"
+procesado,1,4
+almacenista,2,"4, 9"
+insumos,1,4
+repuestos,1,4
+deposito,1,4
+cargas,1,4
+entregas,2,"4, 8"
+pedidos,1,4
+recibo,2,"4, 8"
+almacenaje,1,4
+bodeguero,1,4
+kardista,1,4
+portuaria,2,"4, 5"
+pesador,3,"4, 6, 7"
+camion,3,"4, 8, 9"
+equipajes,2,"4, 9"
+enrutamiento,1,4
+muelles,1,4
+escolares,1,4
+camiones,4,"4, 7, 8, 9"
+carretera,4,"4, 5, 7, 9"
+mochilero,1,4
+itinerarios,1,4
+vuelos,1,4
+tarjador,1,4
+flota,1,4
+archivador,1,4
+indices,1,4
+prestamo,1,4
+referencista,1,4
+cartero,1,4
+censo,1,4
+guiones,1,4
+imprenta,3,"4, 7, 8"
+amanuense,1,4
+escribiente,1,4
+notarios,1,4
+duplicacion,1,4
+microfilmacion,1,4
+parroquial,1,4
+compilacion,1,4
+avisos,3,"4, 7, 8"
+clasificados,1,4
+publicacion,2,"4, 7"
+resumenes,1,4
+directorios,1,4
+lista,1,4
+direcciones,1,4
+guias,1,4
+repertorios,1,4
+suscripciones,1,4
+aeromoza,1,5
+viajeros,1,5
+sobrecargos,1,5
+azafata,1,5
+jefa,1,5
+cabinera,1,5
+sobrecargo,1,5
+tripulante,3,"5, 7, 8"
+autobuses,1,5
+coche,1,5
+pullman,2,"5, 8"
+funicular,2,"5, 8"
+teleferico,2,"5, 8"
+tranvia,2,"5, 8"
+boletos,2,"5, 9"
+recolector,4,"5, 6, 8, 9"
+cabalgata,1,5
+descubrimientos,1,5
+excursiones,1,5
+gira,1,5
+montanismo,1,5
+aventura,1,5
+baquiano,1,5
+cocinero,2,"5, 9"
+campamentos,1,5
+fria,2,"5, 8"
+dietas,1,5
+hornero,3,"5, 7, 8"
+asadero,1,5
+parrillero,1,5
+asador,1,5
+artesano,2,"5, 7"
+cocinera,1,5
+colombiano,1,5
+portador,1,5
+transformador,2,"5, 7"
+comedor,1,5
+camarero,2,"5, 9"
+mesero,1,5
+meseros,1,5
+asientos,1,5
+vinos,4,"5, 7, 8, 9"
+somelier,1,5
+hostess,1,5
+camareros,1,5
+maitre,1,5
+sommelier,1,5
+barman,1,5
+bartender,1,5
+cantinero,1,5
+coctelero,1,5
+tabernero,1,5
+barista,1,5
+cafes,1,5
+expreso,1,5
+barbero,1,5
+cabello,1,5
+peinador,2,"5, 7"
+peluca,1,5
+peluquero,1,5
+manicurista,1,5
+manos,1,5
+pies,1,5
+artificiales,3,"5, 7, 8"
+pedicurista,1,5
+adelgazamiento,1,5
+peso,1,5
+cosmetologo,1,5
+esteticista,1,5
+maquillaje,2,"5, 7"
+decorativo,2,"5, 7"
+realizados,1,5
+peinados,1,5
+asesoria,1,5
+shopper,1,5
+bano,4,"5, 7, 8, 9"
+turco,1,5
+banos,1,5
+sauna,1,5
+colocador,2,"5, 7"
+piercing,1,5
+piercer,1,5
+llaves,3,"5, 7, 8"
+generales,3,"5, 7, 9"
+camareras,1,5
+habitaciones,2,"5, 9"
+aseadores,1,5
+conserjeria,1,5
+domestico,2,"5, 9"
+domestica,2,"5, 9"
+servidumbre,1,5
+mayordomo,2,"5, 6"
+conserje,1,5
+sacristan,1,5
+adivinador,1,5
+astrologo,1,5
+cartomantico,1,5
+lecturista,1,5
+tarot,1,5
+mentalista,1,5
+numerologo,1,5
+oniromantico,1,5
+panelista,1,5
+sensorial,1,5
+pitonisa,1,5
+quiromantico,1,5
+vidente,1,5
+caballero,1,5
+criada,1,5
+dama,1,5
+senora,1,5
+amortajador,1,5
+embalsamador,1,5
+funebre,2,"5, 8"
+tanatologo,1,5
+tanatopractor,1,5
+funerarios,1,5
+funeraria,1,5
+funeral,1,5
+morgue,1,5
+velacion,1,5
+pompas,1,5
+funebres,1,5
+adiestrador,1,5
+perros,2,"5, 6"
+calificado,1,5
+perrera,1,5
+zoologico,1,5
+capturador,1,5
+criador,2,"5, 6"
+cuidador,2,"5, 9"
+caza,2,"5, 9"
+mascotas,1,5
+gallos,2,"5, 6"
+pelea,2,"5, 6"
+domador,1,5
+canino,1,5
+paseador,1,5
+actos,1,5
+gigolo,1,5
+pareja,1,5
+prestador,1,5
+sexuales,1,5
+prostituta,1,5
+modelo,1,5
+webcam,1,5
+plaza,1,5
+puestero,1,5
+quiosco,1,5
+fijo,2,"5, 7"
+mecatera,1,5
+palenquera,1,5
+perecederos,1,5
+refrescos,1,5
+fresca,1,5
+abarrotero,1,5
+florista,2,"5, 7"
+operaria,1,5
+mercaderista,1,5
+paletero,2,"5, 9"
+ropavejero,1,5
+tendero,1,5
+vendedores,1,5
+puerta,1,5
+promotores,1,5
+puntos,2,"5, 7"
+loteria,2,"5, 9"
+peajes,1,5
+gasolinera,1,5
+efectivo,1,5
+peaje,1,5
+expendio,1,5
+boletas,1,5
+expendedor,1,5
+registradora,1,5
+taquillero,1,5
+maniqui,1,5
+pasarela,1,5
+tallaje,1,5
+escultores,1,5
+pintores,1,5
+categoria,1,5
+impulsador,1,5
+demostracion,1,5
+catalogo,1,5
+domicilio,1,5
+telefonicas,2,"5, 7"
+negociante,1,5
+televentas,1,5
+salientes,1,5
+escrutinio,1,5
+telemercaderista,1,5
+televendedor,1,5
+bomba,1,5
+gasolina,1,5
+bombero,2,"5, 8"
+islero,1,5
+isla,1,5
+ensaladas,1,5
+rentas,1,5
+videos,1,5
+institutriz,1,5
+jardinera,1,5
+monitora,1,5
+nana,1,5
+ninera,1,5
+padre,1,5
+correctiva,1,5
+inicial,1,5
+maestros,1,5
+colaborador,1,5
+profesores,1,5
+examenes,1,5
+nacimientos,1,5
+camillero,1,5
+inyectologo,1,5
+reposo,1,5
+parto,1,5
+partos,1,5
+asistenciales,1,5
+flebotomista,1,5
+medicamentos,1,5
+esterilizacion,1,5
+aeroportuario,1,5
+rescatista,1,5
+carabinero,1,5
+intendente,1,5
+subcomisario,1,5
+subintendente,1,5
+patrullas,1,5
+guardian,2,"5, 8"
+patrullero,1,5
+patrulla,1,5
+penitenciario,1,5
+custodia,2,"5, 6"
+subinspector,1,5
+carcel,1,5
+recorrido,1,5
+porteria,1,5
+celador,1,5
+escolta,1,5
+guardaespaldas,1,5
+feria,1,5
+guardarropa,2,"5, 9"
+sereno,1,5
+carro,3,"5, 8, 9"
+vigilante,2,"5, 9"
+colegiales,1,5
+guardavidas,1,5
+complejos,1,5
+acuaticos,1,5
+piscinas,2,"5, 9"
+playas,1,5
+mares,1,5
+salvavidas,1,5
+surf,1,5
+guarda,3,"5, 8, 9"
+brigadista,1,5
+guardabosque,1,5
+guardabosques,1,5
+guardacostas,1,5
+cruce,1,5
+playa,2,"5, 9"
+santuario,1,5
+cultivador,1,6
+algodon,4,"6, 7, 8, 9"
+arroz,3,"6, 8, 9"
+cebolla,1,6
+cilantro,1,6
+frijol,1,6
+habichuela,1,6
+lechuga,1,6
+maiz,1,6
+melon,1,6
+name,1,6
+papa,2,"6, 9"
+pepino,1,6
+perejil,1,6
+pimientos,1,6
+ajies,1,6
+remolacha,2,"6, 8"
+repollo,1,6
+sandia,1,6
+soya,1,6
+tomate,1,6
+tuberculos,1,6
+yuca,1,6
+zanahoria,1,6
+transitorios,1,6
+algodonero,1,6
+negro,1,6
+rubio,1,6
+censador,1,6
+fruto,3,"6, 8, 9"
+organica,1,6
+parcelero,1,6
+trigo,1,6
+canalero,2,"6, 7"
+fontanero,3,"6, 7, 9"
+drenajes,2,"6, 7"
+palero,2,"6, 9"
+regador,1,6
+arbustos,1,6
+aguacate,1,6
+banano,1,6
+coco,2,"6, 7"
+durazno,1,6
+frutales,1,6
+limon,1,6
+mandarina,1,6
+mango,1,6
+naranja,1,6
+africana,1,6
+papaya,1,6
+peras,1,6
+pina,1,6
+aromaticas,1,6
+platano,1,6
+permanentes,1,6
+fruta,2,"6, 8"
+cocos,1,6
+arboricultor,1,6
+caficultor,1,6
+fruticultor,1,6
+vinicultor,1,6
+viticultor,1,6
+fitosaneador,1,6
+injertador,1,6
+vegetativa,1,6
+podador,2,"6, 9"
+polinizador,1,6
+rayador,1,6
+sangrador,1,6
+cesped,3,"6, 8, 9"
+grama,1,6
+pasto,2,"6, 7"
+flor,1,6
+hongos,1,6
+medicinales,3,"6, 7, 8"
+viveros,1,6
+ornamentales,1,6
+invernadero,2,"6, 9"
+pastos,1,6
+semillas,3,"6, 7, 8"
+setas,1,6
+champinones,1,6
+floricultor,1,6
+hortelano,1,6
+horticultor,1,6
+viverista,1,6
+jardinero,1,6
+atleticos,1,6
+privados,1,6
+cementerio,2,"6, 9"
+enraizador,1,6
+resembrador,1,6
+saneador,1,6
+huertas,1,6
+invernaculo,1,6
+ornamental,3,"6, 7, 8"
+mixtos,1,6
+agro,1,6
+policultivos,1,6
+domesticos,1,6
+cabras,1,6
+bovino,1,6
+caballar,1,6
+caprino,1,6
+lechero,1,6
+ovino,1,6
+porcino,1,6
+vacuno,1,6
+ovejas,1,6
+porcicultor,1,6
+basculero,1,6
+chalan,1,6
+esquilador,2,"6, 7"
+ordeno,1,6
+ceba,1,6
+bovinos,1,6
+caprinos,1,6
+equinos,1,6
+porcinos,1,6
+vaquero,1,6
+avicultor,1,6
+granjero,1,6
+galponero,1,6
+sexador,1,6
+pollos,1,6
+apicultor,1,6
+abejas,1,6
+gusanos,1,6
+seda,3,"6, 8, 9"
+mariposas,1,6
+sericultor,1,6
+apicola,1,6
+salvajes,1,6
+avestruces,1,6
+caracoles,1,6
+cocodrilos,1,6
+codornices,1,6
+faisanes,1,6
+gansos,1,6
+iguanas,1,6
+patos,1,6
+perdices,1,6
+ranas,1,6
+caporal,1,6
+combina,1,6
+aserrador,3,"6, 7, 8"
+monte,2,"6, 9"
+talador,1,6
+balsero,1,6
+troncos,2,"6, 8"
+carbonero,2,"6, 9"
+escuadrador,1,6
+ganchero,1,6
+maderero,2,"6, 8"
+sierra,3,"6, 7, 8"
+hacha,1,6
+motosierra,1,6
+trozador,1,6
+almadiero,1,6
+cubicador,1,6
+destajero,1,6
+escalador,2,"6, 7"
+marcador,2,"6, 7"
+desmontadora,1,6
+espaciadora,1,6
+reforestacion,1,6
+forestacion,2,"6, 9"
+acuicultor,1,6
+acuaticas,2,"6, 9"
+estanque,1,6
+trucha,1,6
+algas,2,"6, 9"
+madreperlas,1,6
+ostricultor,1,6
+piscicultor,1,6
+alimento,1,6
+piscifactoria,1,6
+costeras,2,"6, 9"
+litoral,1,6
+embarcacion,3,"6, 7, 8"
+marisquero,1,6
+pescador,2,"6, 7"
+dulce,2,"6, 9"
+concha,1,6
+almeja,1,6
+cangrejo,1,6
+marinas,1,6
+rastreador,1,6
+arponero,1,6
+tunero,1,6
+cazador,1,6
+focas,1,6
+zorros,1,6
+montero,1,6
+ojeador,1,6
+trampero,2,"6, 9"
+subsistencia,1,6
+mixto,1,6
+buzo,2,"6, 7"
+adobero,1,7
+contrapisonero,1,7
+bahareque,1,7
+viviendas,1,7
+pisonero,1,7
+adoquinador,1,7
+albanil,2,"7, 9"
+refractario,1,7
+piedra,2,"7, 8"
+mampostero,1,7
+armador,1,7
+hormigon,2,"7, 8"
+armado,1,7
+chimeneas,1,7
+enladrillador,1,7
+albanileria,2,"7, 9"
+blanca,1,7
+rejuntador,1,7
+mamposteria,1,7
+adornista,1,7
+monumentos,1,7
+amolador,1,7
+cortador,3,"7, 8, 9"
+cantero,2,"7, 8"
+labrante,1,7
+piedras,2,"7, 8"
+granito,2,"7, 8"
+marmol,2,"7, 8"
+pulidor,3,"7, 8, 9"
+dolador,1,7
+inscripciones,2,"7, 8"
+estarcido,1,7
+granitero,1,7
+pulimentador,1,7
+pedrero,1,7
+perforador,2,"7, 8"
+picapedrero,1,7
+tornero,1,7
+labra,1,7
+trazador,1,7
+tronzador,1,7
+cementista,1,7
+trabajados,1,7
+encofrador,1,7
+enfoscador,1,7
+curado,2,"7, 8"
+enrejado,1,7
+mezcladora,2,"7, 8"
+pavimentador,1,7
+terrazas,1,7
+solador,2,"7, 8"
+terrazos,1,7
+enfoscado,1,7
+carpintero,1,7
+embarcaderos,1,7
+astillero,1,7
+barcas,1,7
+armar,1,7
+carrocerias,2,"7, 8"
+decorados,1,7
+ebanista,1,7
+astilleros,1,7
+metalico,1,7
+puertas,3,"7, 8, 9"
+ventanas,2,"7, 9"
+cortinas,2,"7, 8"
+divisiones,2,"7, 9"
+gabinetes,2,"7, 9"
+marquesinas,1,7
+vallas,1,7
+metalica,2,"7, 9"
+andamiero,1,7
+apuntalador,2,"7, 8"
+andamios,1,7
+enlucidor,1,7
+montador,2,"7, 8"
+negra,1,7
+apuntalamiento,1,7
+trabajos,1,7
+derribo,1,7
+metodo,1,7
+implosion,1,7
+pocero,1,7
+reparador,2,"7, 8"
+tejado,1,7
+fijador,1,7
+techo,1,7
+impermeabilizador,1,7
+tejados,1,7
+techador,2,"7, 9"
+asfalto,2,"7, 8"
+azulejos,2,"7, 8"
+canizo,1,7
+chapa,2,"7, 8"
+galvanizada,1,7
+tejas,2,"7, 8"
+sintetico,1,7
+paja,1,7
+revestimiento,2,"7, 8"
+tablas,1,7
+ripia,1,7
+teja,1,7
+azulejero,1,7
+baldosas,2,"7, 8"
+embaldosador,1,7
+muros,1,7
+embaldosinador,1,7
+enchapador,1,7
+enlosador,1,7
+enchapes,1,7
+marmolista,1,7
+alfombras,3,"7, 8, 9"
+pisos,1,7
+vinilo,1,7
+tapetes,1,7
+parquetero,1,7
+ladrillos,3,"7, 8, 9"
+yeso,1,7
+fibroso,1,7
+escayolista,1,7
+estuquista,1,7
+enlistonador,1,7
+estucador,1,7
+listonero,1,7
+panetador,1,7
+revocador,1,7
+yesero,1,7
+estuco,1,7
+pared,1,7
+seca,2,"7, 8"
+aislador,1,7
+calderas,1,7
+sonidos,1,7
+aislacion,1,7
+aislante,1,7
+insonorizacion,1,7
+aislamiento,1,7
+cristales,2,"7, 9"
+cristalero,2,"7, 8"
+lunas,1,7
+claraboyas,2,"7, 8"
+vitrales,1,7
+vidrios,2,"7, 9"
+vidrieria,1,7
+vidriero,2,"7, 9"
+vidrieras,1,7
+empalmador,1,7
+conducciones,1,7
+inteligentes,1,7
+medidores,2,"7, 9"
+desague,1,7
+sanitarias,1,7
+fontaneria,1,7
+plomero,1,7
+tubero,2,"7, 9"
+hidrantes,1,7
+rociadores,1,7
+deteccion,1,7
+alarma,1,7
+incendio,1,7
+extincion,1,7
+recarga,1,7
+extintores,1,7
+portatiles,1,7
+gasfitero,1,7
+calentadores,1,7
+gases,3,"7, 8, 9"
+gasodomesticos,1,7
+externas,1,7
+internas,1,7
+pegador,3,"7, 8, 9"
+termoplastica,1,7
+ventiladores,1,7
+empapelador,1,7
+encalador,1,7
+blanqueador,2,"7, 8"
+colgadura,1,7
+brocha,1,7
+barnizador,1,7
+manufacturados,1,7
+pulverizacion,1,7
+esmaltador,1,7
+pistola,2,"7, 8"
+filetero,1,7
+dorador,1,7
+porcelana,2,"7, 8"
+laqueador,1,7
+latonero,1,7
+inmersion,2,"7, 8"
+latoneria,2,"7, 9"
+samblasting,1,7
+terminador,2,"7, 8"
+tinturero,1,7
+aseador,2,"7, 9"
+deshollinador,1,7
+limpiador,3,"7, 8, 9"
+canon,1,7
+chorro,2,"7, 8"
+arena,2,"7, 8"
+machos,1,7
+machero,1,7
+fosa,1,7
+fosas,2,"7, 9"
+soldar,1,7
+metalmecanico,2,"7, 9"
+cobresoldador,1,7
+soplete,1,7
+induccion,1,7
+soldador,2,"7, 9"
+soldadora,1,7
+laton,1,7
+oxicortador,1,7
+cautin,1,7
+acetileno,1,7
+autogena,1,7
+costuras,1,7
+longitudinales,1,7
+cobre,2,"7, 8"
+inert,1,7
+active,1,7
+soldaduras,1,7
+plomo,2,"7, 8"
+platina,1,7
+flux,1,7
+cored,1,7
+sumergido,1,7
+argon,1,7
+oxiacetileno,1,7
+fcaw,1,7
+welding,1,7
+gtaw,1,7
+tungsten,1,7
+smaw,1,7
+shield,1,7
+resistencia,1,7
+termita,1,7
+sopletista,1,7
+calderero,1,7
+chapas,2,"7, 8"
+chapista,1,7
+ornamentacion,2,"7, 9"
+hojalatero,1,7
+caldera,2,"7, 8"
+carrocero,1,7
+carroceria,1,7
+ensamblador,2,"7, 8"
+blindaje,1,7
+curvador,1,7
+armazones,2,"7, 8"
+remachador,1,7
+martillo,2,"7, 8"
+neumatico,1,7
+replanteador,1,7
+elevacion,2,"7, 8"
+cables,2,"7, 8"
+izar,2,"7, 8"
+colgantes,1,7
+tramoyista,1,7
+chequeador,1,7
+subterraneos,1,7
+tendido,1,7
+subterraneas,1,7
+liniero,1,7
+apisonador,1,7
+forjador,1,7
+aperos,1,7
+pilon,1,7
+fundidor,2,"7, 8"
+herrador,1,7
+herrero,1,7
+metalistero,2,"7, 9"
+ornamentador,1,7
+hierro,2,"7, 8"
+ornamentista,1,7
+calibradores,1,7
+mandriles,1,7
+troqueles,1,7
+matrices,1,7
+herramentista,1,7
+armas,1,7
+cerrajero,1,7
+cerraduras,1,7
+brazos,1,7
+gruas,1,7
+plantillas,1,7
+matricero,1,7
+punta,1,7
+diamante,2,"7, 8"
+armamento,1,7
+bovedas,1,7
+cajas,3,"7, 8, 9"
+fuertes,1,7
+esmeriladora,1,7
+fresadora,2,"7, 8"
+mandriladora,1,7
+rectificadora,1,7
+taladradora,2,"7, 8"
+torno,2,"7, 8"
+cepilladora,2,"7, 8"
+doblador,2,"7, 9"
+laminas,1,7
+fresador,1,7
+mandrilador,1,7
+cizalla,1,7
+escopleadora,1,7
+brilladora,1,7
+curvadora,2,"7, 8"
+acunacion,1,7
+agujas,1,7
+clavos,1,7
+remaches,2,"7, 9"
+tornillos,1,7
+tuercas,1,7
+multiple,1,7
+grabado,2,"7, 8"
+dobladora,1,7
+lapidadora,1,7
+oxicortadora,1,7
+ranuradora,1,7
+remachadora,1,7
+tallar,1,7
+engranajes,1,7
+transferencia,1,7
+automatica,3,"7, 8, 9"
+martinete,1,7
+fragua,1,7
+vertical,1,7
+roscadora,1,7
+automatico,1,7
+revolver,1,7
+universal,1,7
+tubos,2,"7, 8"
+brunidora,2,"7, 8"
+embutir,1,7
+troquelador,2,"7, 8"
+troquelista,1,7
+afilador,1,7
+cardas,2,"7, 8"
+cuchilleria,1,7
+cortantes,1,7
+muela,1,7
+afilar,1,7
+laboreo,1,7
+maquinado,1,7
+sierras,1,7
+aguzador,1,7
+brillador,1,7
+brunidor,1,7
+granallador,1,7
+sandblastero,1,7
+alineador,2,"7, 9"
+sincronizador,1,7
+alineacion,1,7
+balanceo,1,7
+suspension,1,7
+frenos,2,"7, 8"
+motocars,1,7
+motocicletas,1,7
+borda,2,"7, 8"
+pequenos,2,"7, 8"
+pequenas,2,"7, 8"
+radiadores,1,7
+rickshaw,1,7
+motorizado,3,"7, 8, 9"
+livianos,1,7
+ciclomotores,1,7
+turbo,1,7
+alimentadores,1,7
+aleron,1,7
+pista,1,7
+aterrizaje,1,7
+cohete,1,7
+aeronauticos,1,7
+fuselaje,1,7
+motopropulsor,1,7
+fuselajes,1,7
+helices,1,7
+gobernadores,1,7
+helicopteros,1,7
+inyectora,2,"7, 8"
+fijas,1,7
+lubricador,1,7
+estacionarias,1,7
+convencional,1,7
+ajuste,1,7
+ingenio,1,7
+envasadora,2,"7, 8"
+escribir,1,7
+excavacion,3,"7, 8, 9"
+montacargas,2,"7, 8"
+tractores,2,"7, 8"
+engrasador,2,"7, 9"
+telares,2,"7, 8"
+continuas,1,7
+hilar,1,7
+hiladoras,1,7
+estiraje,2,"7, 8"
+toberas,1,7
+manuares,1,7
+calceteria,2,"7, 8"
+tintoreria,1,7
+domesticas,1,7
+urdidoras,1,7
+tejer,2,"7, 8"
+telar,2,"7, 8"
+jacquard,2,"7, 8"
+cardadoras,1,7
+aceitador,1,7
+motorista,1,7
+cochecitos,1,7
+nino,1,7
+silla,1,7
+ruedas,1,7
+balanzas,1,7
+calibrador,1,7
+quirurgicos,1,7
+relojeria,1,7
+relojero,1,7
+fotograficas,2,"7, 8"
+opticos,1,7
+frotada,1,7
+pulsada,1,7
+organo,1,7
+luthier,1,7
+organero,1,7
+fuelles,1,7
+organos,1,7
+alfarero,1,7
+amasador,3,"7, 8, 9"
+ceramista,1,7
+artesanal,1,7
+calador,1,7
+modelos,1,7
+loza,2,"7, 8"
+vaciador,1,7
+prensador,2,"7, 8"
+bordes,1,7
+biselador,1,7
+cucharero,2,"7, 8"
+laminador,2,"7, 8"
+flotacion,2,"7, 8"
+acido,2,"7, 8"
+soplador,1,7
+mosaico,1,7
+vitrofusion,1,7
+vitralista,1,7
+aguafuertista,1,7
+azogador,1,7
+espejos,2,"7, 8"
+calcador,1,7
+decorativa,2,"7, 8"
+esmerilador,1,7
+estampador,1,7
+fuerte,1,7
+pantografo,1,7
+cera,2,"7, 8"
+iluminador,1,7
+laquista,1,7
+litografo,1,7
+marcacion,1,7
+letreros,1,7
+rotulos,1,7
+polichador,1,7
+carteles,2,"7, 9"
+paquete,1,7
+cajista,1,7
+compaginador,1,7
+clisador,1,7
+galvanotipia,1,7
+fotograbador,1,7
+fotocomposicion,1,7
+estereotipista,1,7
+fotocompositor,1,7
+fotolitografo,1,7
+fotomecanico,1,7
+declises,1,7
+linoleo,2,"7, 8"
+huecograbado,1,7
+planchas,2,"7, 8"
+impresor,2,"7, 8"
+litograbador,1,7
+punteado,1,7
+fotopolimero,1,7
+litografica,1,7
+fototipia,1,7
+fotomecanica,1,7
+preprensado,1,7
+preprensa,1,7
+pantografista,1,7
+planchista,1,7
+cilindro,1,7
+clises,1,7
+tamigrafia,1,7
+silk,1,7
+screen,1,7
+pantallas,2,"7, 8"
+prensista,2,"7, 8"
+grabados,1,7
+transportador,3,"7, 8, 9"
+fundidora,1,7
+tipos,1,7
+tipografia,1,7
+linotipia,1,7
+fotolitograbador,1,7
+monotipia,1,7
+sueltos,1,7
+linotipista,1,7
+monotipista,1,7
+tipografica,1,7
+tipografo,1,7
+plancha,1,7
+serigrafia,1,7
+flexografico,1,7
+multilith,1,7
+flexografica,1,7
+laser,2,"7, 8"
+rotativa,2,"7, 8"
+offset,1,7
+fotocopiadora,1,7
+cilindrica,1,7
+hojas,2,"7, 8"
+papeles,1,7
+pintados,1,7
+rotograbado,1,7
+estampacion,1,7
+estarcidores,1,7
+sericigrafia,1,7
+rotograbadora,1,7
+flexograficas,1,7
+cosedor,2,"7, 8"
+encolador,2,"7, 8"
+encuadernador,1,7
+hoja,1,7
+acopladora,1,7
+alzadora,1,7
+encoladora,2,"7, 8"
+encuadernadora,1,7
+rustica,1,7
+grapadora,1,7
+repujado,2,"7, 8"
+cortadora,2,"7, 8"
+estampadora,2,"7, 8"
+guillotinadora,1,7
+troqueladora,2,"7, 8"
+multiencuadernadora,1,7
+plegadora,2,"7, 8"
+guillotina,1,7
+laminadora,2,"7, 8"
+recortador,1,7
+repujador,1,7
+abridor,2,"7, 9"
+tejedor,2,"7, 8"
+batidor,1,7
+cardador,1,7
+desfibrador,1,7
+lino,1,7
+yute,1,7
+desmotador,1,7
+emborrador,1,7
+lana,2,"7, 8"
+napador,1,7
+hilos,2,"7, 8"
+lavador,3,"7, 8, 9"
+cintura,1,7
+torcedor,1,7
+anudador,1,7
+nudo,1,7
+hilados,2,"7, 8"
+hilandero,1,7
+ganchillero,1,7
+mallero,1,7
+redero,1,7
+anudado,1,7
+aplicador,1,7
+bordador,2,"7, 8"
+fieltrador,1,7
+ripiador,1,7
+despepitador,1,7
+chaquira,1,7
+bolillos,1,7
+cinta,2,"7, 8"
+abalorios,1,7
+frivolite,1,7
+macrame,1,7
+bordado,1,7
+costurero,2,"7, 8"
+trenza,1,7
+fique,1,7
+mimbrero,1,7
+bejucos,1,7
+canas,1,7
+cortezas,1,7
+mimbre,1,7
+palmas,1,7
+tintorero,2,"7, 8"
+trenzador,1,7
+brucero,1,7
+cestero,1,7
+entrencillador,1,7
+escobero,1,7
+cepillos,2,"7, 8"
+escobas,2,"7, 8"
+brochas,1,7
+capazos,1,7
+junco,1,7
+esparto,1,7
+sombrero,1,7
+tintes,1,7
+cestos,1,7
+despuchador,1,7
+esterillador,1,7
+estufador,1,7
+hormador,1,7
+sombrerero,1,7
+tejidas,1,7
+fieltros,2,"7, 8"
+artesanales,1,7
+tafiletero,1,7
+apretador,1,7
+maderable,1,7
+maderas,1,7
+hojillador,1,7
+incrustador,1,7
+marquetero,1,7
+maderables,1,7
+barniz,1,7
+taracero,1,7
+filigranero,1,7
+batihoja,1,7
+cerista,1,7
+cincelador,1,7
+colador,2,"7, 8"
+elaborador,1,7
+engastador,1,7
+preciosas,1,7
+preciosos,1,7
+joyero,1,7
+taladrista,1,7
+ceras,1,7
+esmeraldas,1,7
+tallista,1,7
+trefilador,1,7
+orfebre,1,7
+platero,1,7
+martillador,1,7
+nobles,1,7
+precioso,1,7
+orfebreria,1,7
+bisuteria,1,7
+bisutero,1,7
+semipreciosas,1,7
+fantasia,1,7
+preforma,1,7
+marroquinero,1,7
+talabartero,1,7
+cartapesta,1,7
+mache,2,"7, 8"
+papelero,1,7
+burilador,1,7
+bronce,1,7
+frutos,1,7
+secos,2,"7, 8"
+totumo,1,7
+tagua,1,7
+marfil,1,7
+liticos,1,7
+roca,2,"7, 8"
+arreglos,1,7
+florales,1,7
+silletero,2,"7, 9"
+cerero,1,7
+cuerno,1,7
+jabon,2,"7, 8"
+pezuna,1,7
+silletas,1,7
+mixtas,1,7
+reciclados,1,7
+reutilizados,1,7
+recuperador,3,"7, 8, 9"
+confeccionador,3,"7, 8, 9"
+telas,1,7
+velas,2,"7, 8"
+enmarcador,1,7
+cuadros,1,7
+munecos,2,"7, 8"
+munequero,1,7
+jabones,1,7
+plato,1,7
+centrales,1,7
+similares,1,7
+generadores,2,"7, 8"
+baterias,2,"7, 8"
+aspiradoras,1,7
+brilladoras,1,7
+estufas,1,7
+lavadoras,2,"7, 8"
+neveras,2,"7, 8"
+alambrador,2,"7, 8"
+bobinador,2,"7, 8"
+bobinas,2,"7, 9"
+cargador,3,"7, 8, 9"
+inyectoras,1,7
+escaneador,1,7
+inalambrico,1,7
+ascensores,1,7
+dinamos,1,7
+escaleras,1,7
+automaticas,1,7
+avionica,1,7
+tragamonedas,1,7
+fotocopiadoras,1,7
+antenas,1,7
+telecomunicacion,1,7
+antena,1,7
+satelital,1,7
+satelitales,1,7
+cableado,2,"7, 8"
+inalambricas,1,7
+conexiones,1,7
+electronicista,1,7
+receptores,2,"7, 8"
+radiotelefono,1,7
+telefonicos,1,7
+periferico,1,7
+radiocomunicacion,1,7
+telefonia,1,7
+acecinador,1,7
+ahumador,2,"7, 8"
+arreglador,1,7
+butifarrero,1,7
+carnicero,1,7
+matarife,1,7
+chacinero,1,7
+beneficiadero,2,"7, 9"
+porcionador,2,"7, 8"
+jamones,1,7
+desollador,1,7
+despostador,1,7
+embutidor,1,7
+empacador,2,"7, 9"
+fileteador,2,"7, 8"
+reses,1,7
+carniceria,1,7
+descabezado,1,7
+pelado,1,7
+desvenado,1,7
+escamado,1,7
+eviscerado,1,7
+fileteo,1,7
+camaron,1,7
+sacrificio,1,7
+pelador,1,7
+embutidos,1,7
+puntillero,1,7
+mataderos,1,7
+salador,2,"7, 8"
+jamon,1,7
+salazonero,1,7
+salchichero,1,7
+seleccionador,3,"7, 8, 9"
+eviscerador,1,7
+pescados,3,"7, 8, 9"
+artesana,1,7
+amasijos,1,7
+chocolate,1,7
+bizcochero,1,7
+chocolatero,1,7
+confitero,1,7
+dulcera,1,7
+galletero,1,7
+confiteria,2,"7, 8"
+galletas,1,7
+molinero,2,"7, 8"
+chicle,2,"7, 8"
+levadura,1,7
+pastas,2,"7, 8"
+alimenticias,2,"7, 8"
+panadero,1,7
+pizzero,1,7
+refinador,2,"7, 8"
+repostero,1,7
+almibares,1,7
+mermeladas,1,7
+panela,1,7
+arrumador,1,7
+atizador,1,7
+bagazero,1,7
+brequero,1,7
+ramada,1,7
+canatero,1,7
+coquero,1,7
+cuatrero,1,7
+descachazador,1,7
+fogonero,2,"7, 8"
+gaverero,1,7
+guarapero,1,7
+hornillero,1,7
+melador,1,7
+melero,1,7
+mete,1,7
+moldero,1,7
+moledor,1,7
+molendero,1,7
+moliendero,1,7
+trapiche,2,"7, 9"
+panelero,2,"7, 9"
+platillero,1,7
+prensero,1,7
+punteador,1,7
+trapichero,1,7
+mantequillero,1,7
+quesos,1,7
+quesero,1,7
+alambiquera,1,7
+almazarero,1,7
+chichera,1,7
+conservero,2,"7, 8"
+legumbres,2,"7, 8"
+encurtidos,1,7
+mermelada,1,7
+encurtidora,1,7
+nequera,1,7
+chutney,1,7
+zumos,1,7
+preservador,1,7
+tapetucera,1,7
+jugos,2,"7, 8"
+concentrados,1,7
+vichero,1,7
+catador,1,7
+licores,2,"7, 8"
+cereal,1,7
+degustador,1,7
+aromatizador,1,7
+cigarrero,1,7
+cigarros,1,7
+despalillador,1,7
+desvenador,1,7
+enfriador,1,7
+fabricador,1,7
+humectador,1,7
+vena,1,7
+ligador,1,7
+picado,1,7
+secado,3,"7, 8, 9"
+oreador,1,7
+picadura,1,7
+pipa,1,7
+refrescador,1,7
+secador,3,"7, 8, 9"
+rape,1,7
+tabaquero,1,7
+impregnador,1,7
+inmunizador,1,7
+contenedores,2,"7, 8"
+impregnadora,1,7
+secadora,2,"7, 8"
+secadores,1,7
+incisiones,1,7
+chapeador,1,7
+ataudes,1,7
+marqueteria,1,7
+esqueletero,1,7
+mueblista,1,7
+lijado,1,7
+espigas,1,7
+taraceador,1,7
+tonelero,1,7
+marcadora,1,7
+molduradora,1,7
+labrar,2,"7, 8"
+perforadora,2,"7, 8"
+pulidora,2,"7, 8"
+bastidor,1,7
+caladora,1,7
+circular,2,"7, 8"
+sastreria,1,7
+chizguera,1,7
+combinador,1,7
+carpas,1,7
+toldos,1,7
+lencera,1,7
+costurera,1,7
+aguja,2,"7, 8"
+modisto,1,7
+pantalonero,1,7
+peletero,1,7
+sastre,1,7
+peleteria,1,7
+tapicero,1,7
+serie,2,"7, 8"
+patrones,2,"7, 8"
+tapiceria,3,"7, 8, 9"
+guantes,1,7
+velamenes,1,7
+extendedor,1,7
+trazado,1,7
+trazo,1,7
+lenceria,1,7
+manualidades,1,7
+paraguero,1,7
+pasamanero,1,7
+remendador,1,7
+colchonero,1,7
+edredones,1,7
+adobador,1,7
+alisador,1,7
+pellejos,2,"7, 8"
+curtidor,1,7
+depilador,1,7
+descarnador,1,7
+estirador,1,7
+hendedor,1,7
+igualador,1,7
+pelo,1,7
+pelambrero,1,7
+pellejero,1,7
+pintador,2,"7, 8"
+rasurador,1,7
+rebanador,1,7
+sobador,1,7
+suavizador,1,7
+tenidor,2,"7, 8"
+ensuelado,2,"7, 8"
+entintado,1,7
+guarnicion,1,7
+zapateria,1,7
+suelas,2,"7, 8"
+palas,2,"7, 8"
+emplantillador,1,7
+guarnecedor,1,7
+hormero,1,7
+capellada,1,7
+zapatero,1,7
+medida,1,7
+remendero,1,7
+rescate,1,7
+esponjas,1,7
+ostras,1,7
+rana,1,7
+submarino,1,7
+barrenero,1,7
+superficie,2,"7, 8"
+cargapozo,1,7
+dinamitero,1,7
+disparador,2,"7, 9"
+polvora,1,7
+vehiculo,3,"7, 8, 9"
+barrenador,1,7
+polvorista,1,7
+shooter,1,7
+lanas,1,7
+manufacturacion,1,7
+revisador,1,7
+aserrada,1,7
+chapada,1,7
+procesada,1,7
+bateria,1,7
+bombillas,1,7
+excluyendo,1,7
+cigarrillos,2,"7, 8"
+fungicida,1,7
+malas,1,7
+desratizador,1,7
+exterminador,1,7
+pirotecnico,1,7
+avance,1,8
+socavon,1,8
+subsuelo,1,8
+ademador,1,8
+canastero,1,8
+desentibador,1,8
+enganchador,1,8
+vagonetas,1,8
+entibador,1,8
+mineras,2,"8, 9"
+trituradora,1,8
+descargue,2,"8, 9"
+tolvas,1,8
+transportadora,1,8
+mineral,1,8
+trituracion,1,8
+saca,1,8
+tolvero,1,8
+dragalina,1,8
+arrastre,1,8
+excavadora,1,8
+arranque,1,8
+continuo,1,8
+rozadora,1,8
+continua,1,8
+pala,1,8
+cargadora,1,8
+jumbo,1,8
+moto,1,8
+traillas,1,8
+motoniveladoras,1,8
+cargadores,1,8
+tanqueros,1,8
+llantas,1,8
+orugas,1,8
+apurador,1,8
+cribador,1,8
+escogedor,2,"8, 9"
+estriador,1,8
+machacador,1,8
+molibdeno,1,8
+solera,1,8
+rocas,1,8
+precipitacion,1,8
+plata,1,8
+aserradora,1,8
+cono,1,8
+cianuracion,1,8
+cribas,1,8
+molino,1,8
+pulverizadora,2,"8, 9"
+triturar,1,8
+granuladora,1,8
+machacadora,1,8
+pellets,1,8
+prensadora,1,8
+quebrantadora,1,8
+tamizadora,1,8
+magnetico,1,8
+briquetas,1,8
+excavador,1,8
+agujeros,1,8
+sondeos,1,8
+petroleros,1,8
+manilero,1,8
+direccional,1,8
+sondistas,1,8
+sondista,1,8
+taladrero,1,8
+aljibes,1,8
+cadenero,2,"8, 9"
+chequeapozo,1,8
+electrosumergible,1,8
+llave,1,8
+tecnologicos,1,8
+pajarita,1,8
+retro,1,8
+orugada,1,8
+tolva,1,8
+recogemuestras,1,8
+canolero,1,8
+wireline,2,"8, 9"
+slick,2,"8, 9"
+drill,1,8
+stem,1,8
+test,1,8
+cunero,1,8
+workover,1,8
+encuellador,1,8
+torrero,1,8
+extrusor,1,8
+bloques,1,8
+prevaciado,1,8
+hormigonera,1,8
+mosaicos,1,8
+amianto,1,8
+prefabricados,1,8
+aglomerados,1,8
+esculturas,1,8
+elaborar,1,8
+fabricar,1,8
+esmeril,1,8
+muelas,1,8
+asbestos,1,8
+enrollador,2,"8, 9"
+cuchara,1,8
+cementacion,2,"8, 9"
+estiradora,1,8
+pudelar,1,8
+recocido,1,8
+templado,1,8
+caliente,1,8
+cilindricos,1,8
+centrifugadora,1,8
+corrugadora,1,8
+varillas,1,8
+colar,1,8
+malla,1,8
+estirado,1,8
+extrusora,1,8
+balas,1,8
+sinterizado,1,8
+trefiladora,1,8
+freno,1,8
+punzadora,1,8
+arenas,1,8
+recocedor,1,8
+templador,1,8
+revenido,1,8
+anodizador,1,8
+cromador,1,8
+decapador,1,8
+desengrasador,1,8
+electroplateador,1,8
+galvanizador,1,8
+metalizador,1,8
+niquelador,1,8
+enchapado,1,8
+galvanoplastia,1,8
+hojalata,1,8
+galvanizadora,1,8
+recubridora,1,8
+alambres,1,8
+recubrimientos,1,8
+pavonador,1,8
+plateador,1,8
+revestidor,1,8
+glicerina,1,8
+perfumes,1,8
+esencias,1,8
+pirotecnicos,1,8
+municiones,1,8
+perfumeria,1,8
+trementina,1,8
+calcinadora,1,8
+coqueria,1,8
+abonos,1,8
+tambor,1,8
+giratorio,1,8
+coque,1,8
+retorta,1,8
+compactacion,1,8
+latex,1,8
+batidora,2,"8, 9"
+capsuladora,1,8
+cerillas,1,8
+fosforos,1,8
+cirios,1,8
+pirotecnia,1,8
+encapsuladora,1,8
+evaporadora,1,8
+moledora,1,8
+marmita,1,8
+deshidratacion,1,8
+acidos,1,8
+cloro,1,8
+hidrogeno,1,8
+barnices,1,8
+mezcladores,1,8
+deshidratador,1,8
+tostador,1,8
+autotanques,1,8
+centros,1,8
+compresion,1,8
+descompresion,1,8
+llenado,1,8
+halogeno,1,8
+llenadora,1,8
+trasiego,1,8
+fotografica,1,8
+ampliacion,1,8
+fotografias,1,8
+placas,1,8
+revelado,1,8
+revelador,1,8
+negativos,1,8
+sacador,2,"8, 9"
+copias,1,8
+oscuro,1,8
+calandrador,1,8
+calandra,1,8
+calandria,1,8
+amasadora,1,8
+mangueras,1,8
+vulcanizacion,1,8
+lustradora,1,8
+recauchutadora,1,8
+reencauchadora,1,8
+reencauche,1,8
+moldear,1,8
+disco,1,8
+goma,1,8
+vulcanizador,1,8
+recubrimiento,1,8
+pigmentado,1,8
+fibra,2,"8, 9"
+amoladora,1,8
+bolsas,1,8
+polietileno,2,"8, 9"
+botellas,2,"8, 9"
+celofan,1,8
+selladora,1,8
+sopladora,1,8
+termoformadora,1,8
+funda,1,8
+fonograficos,1,8
+rebobinado,1,8
+refilado,1,8
+insertado,1,8
+remachado,1,8
+peletizado,1,8
+sobres,1,8
+cortar,1,8
+plegar,1,8
+forradora,1,8
+devanador,1,8
+encanillador,1,8
+abridora,1,8
+engomadora,1,8
+acondicionadora,1,8
+bobinadora,1,8
+hilo,1,8
+hilaza,1,8
+combinadora,1,8
+hilado,1,8
+mechera,1,8
+fino,1,8
+rotores,1,8
+devanadora,1,8
+troquilones,1,8
+napadora,1,8
+mechas,1,8
+peinadora,1,8
+retorcedora,1,8
+reunidora,1,8
+ovillador,1,8
+plegador,1,8
+enlazador,1,8
+cartones,1,8
+enrolladora,1,8
+bordadora,1,8
+mallas,1,8
+panos,1,8
+tejedora,1,8
+urdido,1,8
+ganchillera,1,8
+pasadora,1,8
+encajes,1,8
+genero,1,8
+urdidora,1,8
+tejedoras,1,8
+urdidor,1,8
+acolchador,1,8
+empretinador,1,8
+fileteadora,1,8
+basteadora,1,8
+acolchado,1,8
+bordar,1,8
+collarin,1,8
+dobladilladora,1,8
+ojaladora,1,8
+plana,1,8
+zigzadora,1,8
+femenina,1,8
+apliques,1,8
+blanqueado,1,8
+blanqueadora,1,8
+satinadora,1,8
+desgaste,1,8
+blanqueamiento,1,8
+texturizado,1,8
+tintura,1,8
+desgomadora,1,8
+encogedora,1,8
+impermeabilizadora,1,8
+polimerizador,1,8
+tundidor,1,8
+adobadora,1,8
+curtiduria,1,8
+curtido,1,8
+depilacion,1,8
+descarne,1,8
+zurrado,1,8
+igualacion,1,8
+pelambres,1,8
+desvenadora,1,8
+templadora,1,8
+rodillo,1,8
+partes,1,8
+desbastador,1,8
+puntas,1,8
+desbastadora,1,8
+pegadora,1,8
+ribeteadora,1,8
+prearmado,1,8
+vulcanizado,1,8
+vira,1,8
+desmanchador,1,8
+planchado,2,"8, 9"
+adornador,1,8
+colchones,1,8
+conos,1,8
+fieltro,1,8
+pasamaneria,1,8
+sombrereros,1,8
+campana,1,8
+sombrereria,1,8
+trenzado,1,8
+trapo,1,8
+cervecero,1,8
+cocedor,1,8
+malta,1,8
+descascarador,1,8
+desecador,1,8
+deshuesador,1,8
+desvicerador,1,8
+hidrogenador,1,8
+aceites,1,8
+grasas,1,8
+margarinero,1,8
+cerveceria,1,8
+vacio,1,8
+alcoholicas,1,8
+descerezadora,1,8
+desdobladora,1,8
+despulpadora,1,8
+difusora,1,8
+carbonatacion,1,8
+cristalizacion,1,8
+evaporacion,1,8
+extractos,1,8
+germinacion,1,8
+malteado,1,8
+hidrogenacion,1,8
+horneo,1,8
+masa,1,8
+harina,1,8
+fermentacion,2,"8, 9"
+cascara,1,8
+congeladora,1,8
+conservadora,1,8
+coccion,1,8
+chocolates,1,8
+polvo,1,8
+vinagres,1,8
+helado,1,8
+interesterificacion,1,8
+pasteurizacion,1,8
+grano,2,"8, 9"
+descortezadora,1,8
+deshidratadora,1,8
+despalilladora,1,8
+electrolisis,1,8
+embotelladora,1,8
+enlatadora,1,8
+esterilizadora,1,8
+procesadas,1,8
+malteadora,1,8
+oleaginosas,1,8
+alcohol,1,8
+picadora,1,8
+procesadora,2,"8, 9"
+margarina,1,8
+tostadora,1,8
+etiquetado,1,8
+enzimatica,1,8
+tacho,1,8
+soluble,1,8
+arepas,1,8
+queso,1,8
+trillador,1,8
+vinagrero,1,8
+glaseado,1,8
+satinado,1,8
+terminacion,1,8
+parafinadora,1,8
+satinador,1,8
+digestor,1,8
+astilladora,1,8
+refino,1,8
+desfibradora,1,8
+lejiadora,1,8
+blanqueo,1,8
+repulper,1,8
+cepillador,2,"8, 9"
+arrastrador,1,8
+aglomerado,1,8
+contrachapada,1,8
+encolado,1,8
+contrachapado,1,8
+intercaladora,1,8
+planeadora,1,8
+sinfin,1,8
+trompo,1,8
+temple,1,8
+arenado,1,8
+mezclado,1,8
+prensado,1,8
+plano,1,8
+rebanadora,1,8
+estampar,1,8
+tunel,1,8
+ladrillo,1,8
+macerador,1,8
+arcillas,2,"8, 9"
+abizcochada,1,8
+vidriar,1,8
+esmaltado,1,8
+abrasivos,1,8
+barbotin,1,8
+frita,1,8
+esmalte,1,8
+pintar,1,8
+moldeado,1,8
+lechada,1,8
+tejero,1,8
+calderista,1,8
+fijos,1,8
+estacionaria,1,8
+llenador,2,"8, 9"
+embaladora,1,8
+enfardadora,1,8
+envolvedora,1,8
+etiquetadora,1,8
+ampolletas,1,8
+capsulas,1,8
+rotuladora,1,8
+monoboyas,1,8
+portalonero,1,8
+lapices,1,8
+patines,1,8
+sombrillas,1,8
+paraguas,1,8
+chips,1,8
+silicio,1,8
+empalmadora,1,8
+botones,2,"8, 9"
+cremas,1,8
+paletizadora,1,8
+aeronauticas,1,8
+cortadoras,1,8
+expendedoras,1,8
+mecanismos,1,8
+veleros,1,8
+condensadores,1,8
+tableros,1,8
+tarjetas,1,8
+microelectronicos,1,8
+desensamble,1,8
+armaduras,1,8
+bobina,1,8
+bujias,1,8
+microelectronica,1,8
+electromecanicos,1,8
+interruptores,1,8
+lamparas,1,8
+refrigeradores,1,8
+televisores,1,8
+neon,1,8
+bobinado,1,8
+cargado,1,8
+bombillos,1,8
+termos,1,8
+lanchas,1,8
+mesas,1,8
+monturas,1,8
+gafas,1,8
+persianas,1,8
+plumas,1,8
+boligrafos,1,8
+escritorios,1,8
+ensambladora,1,8
+calafatero,1,8
+metropolitano,1,8
+maniobras,1,8
+esclusas,1,8
+vagones,1,8
+frenero,1,8
+guardafreno,1,8
+guardafrenos,1,8
+guardagujas,1,8
+guardalineas,1,8
+enganche,1,8
+bicitaxi,2,"8, 9"
+motocicleta,1,8
+mototaxi,1,8
+triciclo,2,"8, 9"
+motociclista,1,8
+repartidor,2,"8, 9"
+chofer,1,8
+automovil,1,8
+camioneta,1,8
+blindado,1,8
+carroza,1,8
+furgon,1,8
+furgoneta,1,8
+pick,1,8
+liviano,1,8
+estacionador,1,8
+valet,1,8
+parking,2,"8, 9"
+taxi,1,8
+taxista,1,8
+autobus,1,8
+autocar,1,8
+buseta,1,8
+colectivo,1,8
+metro,1,8
+microbus,1,8
+colegial,1,8
+trasmilenio,1,8
+intermunicipal,1,8
+articulado,1,8
+biarticulado,1,8
+camionero,1,8
+cisterna,2,"8, 9"
+remolque,1,8
+basura,2,"8, 9"
+tonelaje,1,8
+lanzadera,1,8
+volquete,1,8
+carrotanque,2,"8, 9"
+troque,1,8
+tractomula,1,8
+volqueta,1,8
+barredora,1,8
+calles,2,"8, 9"
+alcantarillas,2,"8, 9"
+mulero,1,8
+volquetero,1,8
+tractorista,1,8
+combinada,1,8
+cosechadora,1,8
+escarificacion,1,8
+desmotadora,1,8
+taladora,1,8
+segadora,1,8
+sembradora,1,8
+tractor,1,8
+canero,1,8
+trilladora,1,8
+buldozero,1,8
+petrolizacion,1,8
+niveladora,1,8
+cuchilla,1,8
+frontal,1,8
+apisonadora,1,8
+aplanadora,1,8
+asfaltadora,1,8
+bulldozer,1,8
+compactadora,1,8
+esparcidor,1,8
+esparcidora,1,8
+explanadora,1,8
+carreteras,2,"8, 9"
+motoniveladora,1,8
+pavimentadora,1,8
+retroexcavadora,1,8
+zanjadora,1,8
+cangilones,1,8
+alquitran,1,8
+scraper,1,8
+rellenadora,1,8
+jaula,1,8
+cabrestante,1,8
+elevador,1,8
+cabria,1,8
+canasta,1,8
+elevadora,1,8
+graneles,1,8
+esclusa,1,8
+aguilon,1,8
+elevadiza,1,8
+flotante,1,8
+locomovil,1,8
+multiproposito,1,8
+portico,1,8
+manlift,1,8
+levadizo,1,8
+telecabina,1,8
+telesilla,1,8
+vagon,1,8
+wincher,1,8
+portacontenedores,1,8
+winche,1,8
+winchero,1,8
+carretilla,1,8
+horquilla,1,8
+apilador,2,"8, 9"
+telehandler,1,8
+dragador,1,8
+faro,1,8
+barcaza,1,8
+cablero,1,8
+timonel,1,8
+transbordador,1,8
+pasabarco,1,8
+pasacable,1,8
+remolcador,1,8
+timonero,1,8
+barquero,1,8
+batelero,1,8
+bote,1,8
+piragua,1,8
+lanchero,1,8
+lancha,1,8
+charter,1,8
+voladora,1,8
+chalupero,1,8
+criado,1,9
+empleada,1,9
+hogares,1,9
+mucamo,1,9
+sirviente,1,9
+talleres,1,9
+comunes,1,9
+sanitizacion,1,9
+camarera,1,9
+oficinas,1,9
+mucama,1,9
+desinfeccion,1,9
+almidonador,1,9
+lavandero,1,9
+planchador,1,9
+houseman,1,9
+cunetas,1,9
+graffitis,1,9
+torres,1,9
+piscinero,1,9
+alzador,1,9
+bagacero,1,9
+bracero,1,9
+colero,1,9
+cortero,1,9
+cosechador,1,9
+cosechero,1,9
+cuadrillero,1,9
+descuajador,1,9
+estaquillador,1,9
+garruchero,1,9
+jornalero,1,9
+obrero,1,9
+mazorca,1,9
+labranza,1,9
+peon,1,9
+puyero,1,9
+sembrador,1,9
+surquero,1,9
+beneficiador,1,9
+yuguero,1,9
+yuntero,1,9
+carguero,1,9
+arriero,1,9
+caballeriza,1,9
+establos,1,9
+boyero,1,9
+caballerizo,1,9
+palafrenero,1,9
+cuidandero,1,9
+gusano,1,9
+huevos,1,9
+guadanador,1,9
+prado,1,9
+hachador,1,9
+lenador,1,9
+plantador,1,9
+arbol,1,9
+trasplantador,1,9
+trepador,1,9
+ahoyador,1,9
+cochero,1,9
+guaquero,1,9
+guardalamparas,1,9
+lampistero,1,9
+frentero,1,9
+malacatero,1,9
+raso,1,9
+carrileras,1,9
+aceitero,1,9
+sandblasting,1,9
+planillero,1,9
+pavimento,1,9
+cavador,1,9
+zanjas,1,9
+acequias,1,9
+cavero,1,9
+desbrozador,1,9
+represas,1,9
+ferreas,1,9
+balasto,1,9
+senalizador,1,9
+portaprisma,1,9
+sepulturas,1,9
+funerario,1,9
+exhumacion,1,9
+inhumacion,1,9
+tumbas,1,9
+sepulturero,1,9
+artesas,1,9
+embalador,1,9
+embotellador,1,9
+envasador,1,9
+etiquetador,1,9
+etiqueteador,1,9
+rotulador,1,9
+nutricional,1,9
+metalisteria,1,9
+paileria,1,9
+vertimiento,1,9
+lijador,1,9
+conservera,1,9
+vinicola,1,9
+cervecera,1,9
+pacas,1,9
+desperdicios,1,9
+fusionador,1,9
+filamentos,1,9
+repases,1,9
+pasahebras,1,9
+broches,1,9
+surtidor,1,9
+talqueador,1,9
+carreta,1,9
+pedal,1,9
+velocipedo,1,9
+motorizada,1,9
+zorrero,1,9
+macho,1,9
+descargador,1,9
+estibador,1,9
+estrobador,1,9
+maletero,1,9
+descarga,1,9
+manejador,1,9
+tanqueador,1,9
+tanquero,1,9
+equipaje,1,9
+trasteos,1,9
+carpero,1,9
+cotero,1,9
+mudanzas,1,9
+surtido,1,9
+rellenador,1,9
+estanterias,1,9
+supermercados,1,9
+reponedor,1,9
+estanteria,1,9
+rapidas,1,9
+platos,1,9
+rapidos,1,9
+hamburguesas,1,9
+fritas,1,9
+pizzas,1,9
+despensa,1,9
+utensilios,1,9
+lavaplatos,1,9
+steward,1,9
+folletos,1,9
+embolador,1,9
+limpiabotas,1,9
+lustrabotas,1,9
+lustrador,1,9
+zapatos,1,9
+recadero,1,9
+gratuita,1,9
+propaganda,1,9
+buhonero,1,9
+lotero,1,9
+voceador,1,9
+basurero,1,9
+cartonero,1,9
+reciclador,1,9
+reciclaje,1,9
+oficio,1,9
+chatarrero,1,9
+chatarra,1,9
+barrendero,1,9
+escobita,1,9
+rastrillador,1,9
+ascensorista,1,9
+ascensor,1,9
+equipajero,1,9
+mandadero,1,9
+domicilios,1,9
+transportes,1,9
+oficios,1,9
+disponible,1,9
+servir,1,9
+polivalente,1,9
+sencillas,1,9
+acarreador,1,9
+lena,1,9
+monedas,1,9
+vehicular,1,9
+bolera,1,9
+boleador,1,9
+tenis,1,9
+caddie,1,9
+pelotas,1,9
+llantero,1,9
+montallantas,1,9
+montallantero,1,9
+estacionamiento,1,9
+parqueadero,1,9
