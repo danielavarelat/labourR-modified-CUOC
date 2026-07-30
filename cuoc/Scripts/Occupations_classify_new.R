@@ -10,7 +10,8 @@ suppressPackageStartupMessages({
   library(stringdist)
 })
 
-
+# Helper to tokenize cleaned text into a long data.table of id-term pairs.
+# This is shared by the test scripts and the reusable prediction functions.
 corpus_to_dt <- function(corpus, ID, COL) {
   freeTextTokensList <- strsplit(corpus[[COL]], split = " ")
   names(freeTextTokensList) <- corpus[[ID]]
@@ -105,6 +106,8 @@ classify_occupation_2 <- function(corpus,
   
 }
 
+# Exact level-1 shortcut based on the curated domain-specific vocabulary.
+# If a vacancy hits one of these terms, we can bypass the broad TF-IDF step.
 get_level1_exact <- function(dt_vac, vocabulary, print_match=FALSE) {
   # hacer match entre cada vacante DT y el vocabulary domain specific 
   dt_vac_match <- merge(dt_vac, vocabulary,  all.x = TRUE)
@@ -114,6 +117,13 @@ get_level1_exact <- function(dt_vac, vocabulary, print_match=FALSE) {
   }
   return(dt_vac_match)
 } 
+
+# Main two-step classifier.
+# Step 1: try exact domain-specific level-1 matches.
+# Step 2: otherwise use broad level-1 TF-IDF.
+# Step 3: classify granular CUOC codes within the chosen level-1 bucket.
+# Note: `text_col2` is configurable on purpose. Some experiments use only
+# `title_kw`, while others keep a fuller `title_kw_des` variant for comparison.
 
 
 single_two_steps <- function(corpus_one, 
@@ -182,7 +192,11 @@ single_two_steps <- function(corpus_one,
       
     }
 }
-}
+
+# Comparison-only branch kept from experimentation.
+# It skips the exact level-1 shortcut and goes directly from broad TF-IDF to
+# granular TF-IDF. Useful when checking how much the domain-specific shortcut
+# changes behavior.
 single_two_steps_incomplete <- function(corpus_one, 
                                       table_tfidf_broad,
                                       table_tfidf_granular, 
@@ -231,5 +245,6 @@ single_two_steps_incomplete <- function(corpus_one,
     
   }
   
+}
 }
   
