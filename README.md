@@ -1,7 +1,6 @@
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# labourR ORIGINAL 
+# labourR ORIGINAL
 
 The goal of labourR is to map multilingual free-text of occupations,
 such as a job title in a Curriculum Vitae, to hierarchical ontologies
@@ -16,69 +15,57 @@ the International Standard Classification of Occupations.
 Computations are vectorised and the `data.table` package is used for
 high performance and memory efficiency.
 
-Ir al 
+Ir al
 [Repositorio](https://eworx-org.github.io/labourR/articles/occupations_retrieval.html)
 para más detalles.
 
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
+# CUOC Adaptation
 
-# Nuestra implementación
+This repository now includes a CUOC-focused implementation for vacancy-to-occupation mapping.
 
-El documento que se usa como base en este caso es la [Clasificación Única de Ocupaciones para Colombia – CUOC 2022](https://www.dane.gov.co/files/sen/nomenclatura/cuoc/documento-clasificacion-unica-ocupaciones-colombia-CUOC-2022.pdf). 
+Start with the project log:
 
+- [CUOC pipeline history](./CUOC_pipeline_history.md)
 
-Como clasificación inicia se tienen los 10 GRANDES GRUPOS, cuyo código únicamente tiene un dígito. De ahí en adelante, se tienen SUBGRUPOS PRINCIPALES (dos dígitos), Subgrupos (tres dígitos), Grupos primarios (cuatro dígitos) y finalmente las Ocupaciones (cinco dígitos). 
+The working reference for this branch is the CUOC 2022 classification:
 
+- [Clasificación Única de Ocupaciones para Colombia - CUOC 2022](https://www.dane.gov.co/files/sen/nomenclatura/cuoc/documento-clasificacion-unica-ocupaciones-colombia-CUOC-2022.pdf)
+
+## What the CUOC workflow does
+
+The current pipeline follows three main steps:
+
+1. Build a broad `level1` TF-IDF table from `Denominaciones CUOC 2022`.
+2. Build the granular occupation TF-IDF table from `Ocupaciones CUOC 2022` and `Descripciones CUOC 2022`.
+3. Use a curated `domain-specific` vocabulary to shortcut some `level1` matches before TF-IDF.
+
+The current workflow is documented in detail in the pipeline history file above.
+
+## Key scripts
+
+- `cuoc/Scripts/Create_corpus_level1.R`
+- `cuoc/Scripts/Level1_specific_terms.R`
+- `cuoc/Scripts/Occupations_tfidf_CUOC.R`
+- `cuoc/Scripts/Run_occ_predict.R`
+
+## Main inputs
+
+- `cuoc/Data/Correlativa_CUOC-2022_Vs_CNO-2022.xlsx`
+- `cuoc/Data/tfidf_tokens_level1_den.rds`
+- `cuoc/Data/tfidf_tokens_cuoc.rds`
+- `cuoc/Data/domain_specific_v1.rds`
+
+## Input arguments for the main classifier
+
+- `corpus_one`: vacancy data as a `data.table`
+- `id_col`: ID column name
+- `text_col1`: text used for the broad `level1` match
+- `text_col2`: text used for the granular occupation match
+- `num_leaves_final`: number of occupation predictions returned per vacancy
+
+The implementation keeps experimental scratch blocks in the scripts when they help with debugging or comparison, but the authoritative project notes live in the CUOC pipeline history file.
 
 <img width="521" alt="foto" src="https://github.com/danielavarelat/labourR-modified-CUOC/assets/47607161/d4db5a70-8a08-41a9-9509-8939b023e3b5">
-
-
-### Metodología 
-
-El corpus de entrada o la vacante individual debe ser limpiada y tokenizado: hay funciones ya para esto, pero no se corren dentro de la función ppal; es un paso de pre-procesamiento previo.  
-Parte de este preprocesamiento incluye concatenar las columnas que se quieren analizar,  por ejemplo: unir las palabras claves con el título y la descripción. 
-
-Las tablas TFIDF se pueden construir con el código del repositorio principal (revisar arriba). Estas son la base necesaria para el funcionamiento del algoritmo. 
-
-El valor agregado de esta implementación está en la utilización de dos niveles de clasificación para restringir el universo de posibilidades de ocupaciones. Primero, se trata de identificar si la vacante tiene palabras que sean "domain-specific" para los GRANDES GRUPOS y si no encuentra, hace TFIDF para este primer nivel. Una vez determina el primer nivel, solo busca el match usando TFIDF con las ocupaciones dentro de este NIVEL GENERAL. 
-
-
-ARCHIVO UTILIZADO -> Correlativa_CUOC-2022_Vs_CNO-2022.xlsx
-
-### Entradas 
-
-- **corpus_one**: una vacante en forma de data.table
-
-- **id_col, text_col1, text_col2**: Nombre de la columna de ID, el texto a usar en la primera clasficación y en la segunda (pueden ser los mismos o puede ser por ejemplo título y palabras claves para lo primero, y después todo junto incluyendo la descripción). 
-
-- **num_leaves_final**: Número de ocupaciones a predecir para cada vacante.
-
-Las siguientes tablas son entradas que deben construirse previamente 
-
-- **vocabulary_domain**: tabla con los términos que son específicos para cada uno de los 10 GRANDES GRUPOS. | term | levels |
-  En este caso son 697.
-
-- **table_tfidf_broad**: tabla TFIDF construida usando las "Denominaciones CUOC 2022" del archivo fuente para cada uno de los GRANDES GRUPOS.
-<img width="1445" alt="imagen" src="https://github.com/danielavarelat/labourR-modified-CUOC/assets/47607161/67021422-89c2-4db4-a325-ff0187e7079e">
-
-- **table_tfidf_granular**: tabla TFIDF construida usando las "Ocupaciones" y "Descripciones" para el nivel de Ocupaciones. 
-<img width="1414" alt="imagen" src="https://github.com/danielavarelat/labourR-modified-CUOC/assets/47607161/7ceba321-4ecf-48ab-b4ee-13a46b5ba379">
-<img width="1195" alt="imagen" src="https://github.com/danielavarelat/labourR-modified-CUOC/assets/47607161/d1c58079-2de1-4b87-a8ef-ca88c2e8e78b">
-
-
-    corpus_in <- data.frame(
-                id = 1,
-                text = c("texto de la vacante"))
-  
-    single_two_steps(corpus_one = corpus_in, 
-                     vocabulary_domain = vocabulary_domain, 
-                     table_tfidf_broad = level1_tfidf,
-                     table_tfidf_granular=granular_tfidf,
-                     id_col='id', 
-                     text_col1='text', 
-                     text_col2='text',
-                     num_leaves_final = 3)
-
-
 

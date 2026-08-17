@@ -124,8 +124,9 @@ get_level1_exact <- function(dt_vac, vocabulary, print_match=FALSE) {
 # Step 3: classify granular CUOC codes within the chosen level-1 bucket.
 # Note: `text_col2` is configurable on purpose. Some experiments use only
 # `title_kw`, while others keep a fuller `title_kw_des` variant for comparison.
-
-
+# `TermLevel1` keeps the token(s) that supported the level-1 decision and
+# `level1_source` tells us whether that decision came from the exact shortcut
+# or from the TF-IDF fallback.
 single_two_steps <- function(corpus_one, 
                              vocabulary_domain, 
                              table_tfidf_broad,
@@ -147,19 +148,21 @@ single_two_steps <- function(corpus_one,
     
     res <- get_level1_exact(tokens_one_TKW, vocabulary_domain, print_match=print_match)
     match_one <- unique(res$levels)
+    level1_source <- NA_character_
+    term_level1 <- ""
     
     if (length(match_one) == 1){
       if (print_match){
         print(paste0("Matched domain specific word in level = ", match_one))
       }
       pred1 <- as.data.frame(list(id="vac", level1=match_one))
-      domain_spec_term <- unique(res$term)
-      if (length(domain_spec_term) > 1) {
-        domain_spec_term <- paste(domain_spec_term, collapse = ",")
-      } #else {"No domain specific term"}
+      level1_source <- "domain_specific"
+      term_level1 <- unique(res$term)
+      if (length(term_level1) > 1) {
+        term_level1 <- paste(term_level1, collapse = ",")
+      }
       
     } else {
-      domain_spec_term <- ""
       if (print_match){
         print("DID NOT match an specific word")
       }
@@ -169,6 +172,10 @@ single_two_steps <- function(corpus_one,
                                    max_dist = 0.1,
                                    string_dist = 'jw',
                                    outcode="level1")
+      if (nrow(pred1) > 0) {
+        level1_source <- "tfidf_broad"
+        term_level1 <- pred1$matched_terms[[1]]
+      }
       #pred1$weight_sum <- NULL
     }
     if (nrow(pred1) > 0) {
@@ -179,7 +186,8 @@ single_two_steps <- function(corpus_one,
                                    max_dist = max_dist,
                                    string_dist = string_dist,
                                    outcode = "CuocCode")
-      pred2$TermLevel1 <- domain_spec_term
+      pred2$TermLevel1 <- term_level1
+      pred2$level1_source <- level1_source
       return(pred2)
     } else {
       return(data.table(
@@ -187,10 +195,12 @@ single_two_steps <- function(corpus_one,
         CuocCode = character(),
         weight_sum = numeric(),
         matched_terms = character(),
-        TermLevel1 = character()
+        TermLevel1 = character(),
+        level1_source = character()
       ))
       
     }
+  }
 }
 
 # Comparison-only branch kept from experimentation.
@@ -246,5 +256,3 @@ single_two_steps_incomplete <- function(corpus_one,
   }
   
 }
-}
-  
