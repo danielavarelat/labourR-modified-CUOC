@@ -68,7 +68,7 @@ description_col <- parse_arg("description_col", description_col)
 broad_text_col <- parse_arg("broad_text_col", broad_text_col)
 granular_text_col <- parse_arg("granular_text_col", granular_text_col)
 num_leaves_final <- as.integer(parse_arg("num_leaves_final", num_leaves_final))
-use_parallel <- parse_flag("parallel", use_parallel)
+use_parallel <- parse_flag("use_parallel", use_parallel)
 n_workers <- as.integer(parse_arg("workers", n_workers))
 
 if (is.na(num_leaves_final) || num_leaves_final < 1) {
