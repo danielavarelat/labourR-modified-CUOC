@@ -34,7 +34,6 @@ GRANULAR_TEXT_COL="${10:-title_kw_des}"
 NUM_LEAVES_FINAL="${11:-3}"
 USE_PARALLEL_FLAG="${12:-FALSE}"
 WORKERS="${13:-2}"
-
 R_SCRIPT="${CUOC_ROOT}/cuoc/Scripts/Run_occ_predict.R"
 
 if [[ ! -d "$PROJECT_ROOT" ]]; then

@@ -120,6 +120,15 @@ if (length(missing_cols) > 0) {
   )
 }
 
+if (id_col %in% names(vacantes)) {
+  n_before <- nrow(vacantes)
+  vacantes <- unique(vacantes, by = id_col)
+  n_after <- nrow(vacantes)
+  if (n_after < n_before) {
+    cat("IDs duplicados eliminados por", id_col, ":", n_before - n_after, "\n")
+  }
+}
+
 ### LIMPIEZA ----
 clean_vacancy <- function(vacancy_row) {
   data.table(
